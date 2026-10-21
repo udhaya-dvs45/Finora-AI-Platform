@@ -1,15 +1,19 @@
 # Finora AI — Financial Intelligence & Multi-Agent Research Terminal
 
 [![Platform](https://img.shields.io/badge/Platform-Finora%20AI-0F172A?style=for-the-badge&logo=probot)](https://github.com/udhaya-dvs45/Finora-AI-Platform)
+[![Live Demo](https://img.shields.io/badge/Demo-Live%20on%20Vercel-000000?style=for-the-badge&logo=vercel)](https://flying-sirocco-qc3yg44.vercel.app)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=for-the-badge&logo=nodedotjs)](https://nodejs.org/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python)](https://python.org/)
 [![LangGraph](https://img.shields.io/badge/LangGraph-Multi--Agent-FF6F00?style=for-the-badge)](https://langchain-ai.github.io/langgraph/)
 [![Vector DB](https://img.shields.io/badge/Vector%20DB-ChromaDB-blue?style=for-the-badge)](https://www.trychroma.com/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
+> 🚀 **Live Production Deployment**: **[https://flying-sirocco-qc3yg44.vercel.app](https://flying-sirocco-qc3yg44.vercel.app)**
+
 **Finora AI** is an institutional-grade, multi-agent financial intelligence terminal built to ingest, analyze, cross-examine, and report on corporate 10-K filings and annual reports. Powered by a collaborative swarm of specialized AI agents, Finora AI extracts critical financial metrics, detects governance and liquidity red flags, benchmarks peer competitors, and generates executive-ready PDF intelligence dossiers.
 
 Developed as part of the **Infosys Springboard Internship** by **Udhaya Kiran**.
+
 
 ---
 
@@ -184,12 +188,12 @@ python src/app.py compare AMAZON:2023 APPLE:2024
 
 ## ☁️ Deployment to Vercel
 
-This repository is pre-configured with [`vercel.json`](vercel.json) for 1-click deployment:
+The application is deployed and hosted live on Vercel:
 
-1. Import this repository into [Vercel](https://vercel.com).
-2. Leave root directory as `./`.
-3. (Optional) Set `GEMINI_API_KEY` under Environment Variables.
-4. Click **Deploy**.
+🔗 **Production URL**: **[https://flying-sirocco-qc3yg44.vercel.app](https://flying-sirocco-qc3yg44.vercel.app)**
+
+This repository is pre-configured with [`frontend/vercel.json`](frontend/vercel.json) for zero-config serverless hosting of the Finora AI Express server and financial intelligence terminal interface.
+
 
 ---
 
