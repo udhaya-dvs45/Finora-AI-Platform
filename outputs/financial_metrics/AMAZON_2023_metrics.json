@@ -1,0 +1,119 @@
+{
+  "doc_id": "AMAZON_2023",
+  "company": "AMAZON",
+  "year": "2023",
+  "extracted_at": "2026-10-13T08:15:04.526444",
+  "metrics": {
+    "revenue": {
+      "value": 469822.0,
+      "raw_text": "469,822",
+      "source_text": "AMAZON.COM, INC.\nCONSOLIDATED STATEMENTS OF OPERATIONS\n(in millions, except per share data)\n  \nYear Ended December 31,\n \n2021\n2022\n2023\nNet product sales\n$ \n241,787 $ \n242,901 $ \n255,887 \nNet service sales\n \n228,035  \n271,082  \n318,898 \nTotal net sales\n \n469,822  \n513,983  \n574,785 \nOperating expenses:\nCost of sales\n \n272,344  \n288,831  \n304,739 \nFulfillment\n \n75,111  \n84,299  \n90,619 \nTechnology ",
+      "document": "AMAZON_ANNUAL_2023.pdf",
+      "page_number": 50,
+      "company": "AMAZON",
+      "year": "2023",
+      "confidence": "high"
+    },
+    "net_income": {
+      "value": ",",
+      "raw_text": ",",
+      "source_text": "leases, net of remeasurements and \nmodifications\n$ \n7,061 $ \n675 $ \n642 \nProperty and equipment recognized during the construction period of build-to-suit lease \narrangements\n$ \n5,846 $ \n3,187 $ \n357 \nProperty and equipment derecognized after the construction period of build-to-suit lease \narrangements, with the associated leases recognized as operating\n$ \n230 $ \n5,158 $ \n1,374 \nEarnings Per Share",
+      "document": "AMAZON_ANNUAL_2023.pdf",
+      "page_number": 55,
+      "company": "AMAZON",
+      "year": "2023",
+      "confidence": "low"
+    },
+    "operating_income": {
+      "value": 24879.0,
+      "raw_text": "24,879",
+      "source_text": "5  \n537,933 \nOperating income\n \n24,879  \n12,248  \n36,852 \nInterest income\n \n448  \n989  \n2,949 \nInterest expense\n \n(1,809)  \n(2,367)  \n(3,182) \nOther income (expense), net\n \n14,633  \n(16,806)  \n938 \nTotal non-operating income (expense)\n \n13,272  \n(18,184)  \n705 \nIncome (loss) before income taxes\n \n38,151  \n(5,936)  \n37,557 \nBenefit (provision) for income taxes\n \n(4,791)  \n3,217  \n(7,120) \nEquity-me",
+      "document": "AMAZON_ANNUAL_2023.pdf",
+      "page_number": 50,
+      "company": "AMAZON",
+      "year": "2023",
+      "confidence": "high"
+    },
+    "gross_profit": {
+      "value": null,
+      "raw_text": null,
+      "source_text": null,
+      "document": null,
+      "page_number": null,
+      "company": "AMAZON",
+      "year": "2023",
+      "confidence": "not_found"
+    },
+    "total_assets": {
+      "value": 462675.0,
+      "raw_text": "$ \n462,675",
+      "source_text": "AMAZON.COM, INC.\nCONSOLIDATED BALANCE SHEETS\n(in millions, except per share data)\nDecember 31,\n \n2022\n2023\nASSETS\nCurrent assets:\nCash and cash equivalents\n$ \n53,888 $ \n73,387 \nMarketable securities\n \n16,138  \n13,393 \nInventories\n \n34,405  \n33,318 \nAccounts receivable, net and other\n \n42,360  \n52,253 \nTotal current assets\n \n146,791  \n172,351 \nProperty and equipment, net\n \n186,715  \n204,177 \nOperat",
+      "document": "AMAZON_ANNUAL_2023.pdf",
+      "page_number": 52,
+      "company": "AMAZON",
+      "year": "2023",
+      "confidence": "high"
+    },
+    "total_liabilities": {
+      "value": null,
+      "raw_text": null,
+      "source_text": null,
+      "document": null,
+      "page_number": null,
+      "company": "AMAZON",
+      "year": "2023",
+      "confidence": "not_found"
+    },
+    "shareholders_equity": {
+      "value": 146043.0,
+      "raw_text": "146,043",
+      "source_text": "sive income (loss)\n \n(4,487)  \n(3,040) \nRetained earnings\n \n83,193  \n113,618 \nTotal stockholders’ equity\n \n146,043  \n201,875 \nTotal liabilities and stockholders’ equity\n$ \n462,675 $ \n527,854 \nSee accompanying notes to consolidated financial statements.\n40",
+      "document": "AMAZON_ANNUAL_2023.pdf",
+      "page_number": 52,
+      "company": "AMAZON",
+      "year": "2023",
+      "confidence": "high"
+    },
+    "operating_cash_flow": {
+      "value": null,
+      "raw_text": null,
+      "source_text": null,
+      "document": null,
+      "page_number": null,
+      "company": "AMAZON",
+      "year": "2023",
+      "confidence": "not_found"
+    },
+    "eps": {
+      "value": 10117.0,
+      "raw_text": "10,117",
+      "source_text": "under the treasury stock method. In periods when we have a net loss, stock awards are excluded from our \ncalculation of earnings per share as their inclusion would have an antidilutive effect.\nThe following table shows the calculation of diluted shares (in millions):\n  \nYear Ended December 31,\n \n2021\n2022\n2023\nShares used in computation of basic earnings per share\n \n10,117  \n10,189  \n10,304 \nTotal",
+      "document": "AMAZON_ANNUAL_2023.pdf",
+      "page_number": 55,
+      "company": "AMAZON",
+      "year": "2023",
+      "confidence": "high"
+    },
+    "revenue_trend": {
+      "value": 88000000.0,
+      "raw_text": "$88 million in comparison with the prior year",
+      "source_text": "reign exchange rates vary, net sales and other operating results may differ materially from expectations, and \nwe may record significant gains or losses on the remeasurement of intercompany balances. For example, as a result of \nfluctuations in foreign exchange rates throughout the year compared to rates in effect the prior year, International segment net \nsales increased by $88 million in compari",
+      "document": "AMAZON_ANNUAL_2023.pdf",
+      "page_number": 45,
+      "company": "AMAZON",
+      "year": "2023",
+      "confidence": "high"
+    }
+  },
+  "ratios": {
+    "equity_ratio": {
+      "value": 0.3156,
+      "percentage": "31.56%",
+      "formula": "Shareholders Equity / Total Assets",
+      "inputs_used": {
+        "equity": 146043.0,
+        "total_assets": 462675.0
+      }
+    }
+  }
+}

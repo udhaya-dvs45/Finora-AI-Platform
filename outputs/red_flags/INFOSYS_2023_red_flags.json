@@ -1,0 +1,149 @@
+{
+  "doc_id": "INFOSYS_2023",
+  "company": "INFOSYS",
+  "year": "2023",
+  "scanned_at": "2026-10-13T07:44:07.184670",
+  "summary": {
+    "overall_risk_level": "HIGH",
+    "risk_score_out_of_100": 100,
+    "total_flags": 9,
+    "high_severity_count": 3,
+    "medium_severity_count": 6,
+    "low_severity_count": 0
+  },
+  "red_flags": [
+    {
+      "id": "FLAG_NEGATIVE_EQUITY",
+      "category": "Solvency & Capital Structure",
+      "severity": "HIGH",
+      "title": "Negative Shareholders' Equity",
+      "description": "Stockholders' equity is negative (-1.00), meaning accumulated liabilities exceed assets.",
+      "evidence": "Stockholders' Equity: -1.00",
+      "provenance": {
+        "document": "INFOSYS_ANNUAL_2023.pdf",
+        "page_number": 110,
+        "raw_text": "-1"
+      }
+    },
+    {
+      "id": "FLAG_GOING_CONCERN",
+      "category": "Auditor & Internal Controls",
+      "severity": "HIGH",
+      "title": "Disclosure: Going Concern Detected",
+      "description": "Disclosed mentions of going concern found in annual filing.",
+      "evidence": "iateness of management’s use of the going concern basis of accounting and, based on the audit evidence \nobtained, whether a material uncertainty exists related to events or conditions that may cast significant doubt on the Company’s \nability to continue as a going concern. If we conclude that a mate",
+      "provenance": {
+        "document": "INFOSYS_ANNUAL_2023.pdf",
+        "page_number": 181,
+        "matched_keywords": [
+          "going concern"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_MATERIAL_WEAKNESS",
+      "category": "Auditor & Internal Controls",
+      "severity": "HIGH",
+      "title": "Disclosure: Material Weakness Detected",
+      "description": "Disclosed mentions of material weakness found in annual filing.",
+      "evidence": "material respects.\nOur audit involves performing procedures to obtain audit evidence about the adequacy of the internal financial controls with \nreference to Standalone Financial Statements and their operating effectiveness. Our audit of internal financial controls with reference \nto Standalone Fina",
+      "provenance": {
+        "document": "INFOSYS_ANNUAL_2023.pdf",
+        "page_number": 184,
+        "matched_keywords": [
+          "material weakness"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_PENALTY",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Penalty Detected",
+      "description": "Disclosed mentions of penalty found in annual filing.",
+      "evidence": "internal learning \nplatform and Infosys Springboard, our flagship digital learning platform.\n2. \u0007Details of fines / penalties /punishment/ award/ compounding fees/ settlement amount paid in proceedings (by the entity or by directors / KMPs) with regulators/ law \nenforcement agencies/ judicial instit",
+      "provenance": {
+        "document": "INFOSYS_ANNUAL_2023.pdf",
+        "page_number": 140,
+        "matched_keywords": [
+          "penalty"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_CLASS_ACTION",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Class Action Detected",
+      "description": "Disclosed mentions of class action found in annual filing.",
+      "evidence": "ty eDiscovery vendor \nhas identified corporate customers and individuals whose \ninformation was subject to unauthorized access and exfiltration. \nMcCamish’s review process is ongoing. McCamish may incur \nadditional costs including indemnities or damages / claims, \nwhich are indeterminable at this ti",
+      "provenance": {
+        "document": "INFOSYS_ANNUAL_2023.pdf",
+        "page_number": 327,
+        "matched_keywords": [
+          "class action"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_LITIGATION",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Litigation Detected",
+      "description": "Disclosed mentions of litigation found in annual filing.",
+      "evidence": "trols to mitigate the risks\n•\t\nMulti-layered governance process for contract \napproval\n•\t\nDedicated teams to adhere to, monitor and audit \ncontractual obligations\n•\t\nComprehensive Board-level monitoring, reporting \nand governance of contractual risks\nComplex and evolving \nregulatory environment\n•\t\nI",
+      "provenance": {
+        "document": "INFOSYS_ANNUAL_2023.pdf",
+        "page_number": 124,
+        "matched_keywords": [
+          "litigation"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_IMPAIRMENT",
+      "category": "Impairments & Solvency Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Impairment Detected",
+      "description": "Disclosed mentions of impairment found in annual filing.",
+      "evidence": "f the total capital work in progress.\n2.4 Goodwill and other intangible assets\n2.4.1 Goodwill\nAccounting policy\nGoodwill represents the purchase consideration in excess of \nthe Group's interest in the net fair value of identifiable assets, \nliabilities and contingent liabilities of the acquired enti",
+      "provenance": {
+        "document": "INFOSYS_ANNUAL_2023.pdf",
+        "page_number": 287,
+        "matched_keywords": [
+          "impairment"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_IMPAIRMENT",
+      "category": "Impairments & Solvency Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Impairment Detected",
+      "description": "Disclosed mentions of impairment found in annual filing.",
+      "evidence": "gy. Also, refer to Note 2.2.\ne. Impairment of goodwill\nGoodwill is tested for impairment on an annual basis and \nwhenever there is an indication that the recoverable amount of a \nCash Generating Unit (CGU) is less than its carrying amount. For \nthe impairment test, goodwill is allocated to the CGU o",
+      "provenance": {
+        "document": "INFOSYS_ANNUAL_2023.pdf",
+        "page_number": 282,
+        "matched_keywords": [
+          "impairment"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_IMPAIRMENT",
+      "category": "Impairments & Solvency Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Impairment Detected",
+      "description": "Disclosed mentions of impairment found in annual filing.",
+      "evidence": "of the \nassets exceeds the estimated recoverable amount of the asset. \nAn impairment loss is reversed in the Consolidated Statement of \nProfit and Loss if there has been a change in the estimates used \nto determine the recoverable amount. The carrying amount \nof the asset is increased to its revised",
+      "provenance": {
+        "document": "INFOSYS_ANNUAL_2023.pdf",
+        "page_number": 284,
+        "matched_keywords": [
+          "impairment"
+        ]
+      }
+    }
+  ]
+}

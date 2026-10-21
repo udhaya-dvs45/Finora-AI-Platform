@@ -1,0 +1,16 @@
+{
+  "name": "finora-ai-platform",
+  "version": "1.0.0",
+  "description": "Finora AI - Financial Intelligence Terminal & Multi-Agent Platform",
+  "main": "frontend/server.js",
+  "scripts": {
+    "start": "node frontend/server.js",
+    "dev": "node --watch frontend/server.js",
+    "install:ui": "npm --prefix frontend install"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "multer": "^1.4.5-lts.1"
+  }
+}

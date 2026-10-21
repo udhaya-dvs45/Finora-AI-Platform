@@ -1,0 +1,121 @@
+{
+  "doc_id": "AMAZON_2024",
+  "company": "AMAZON",
+  "year": "2024",
+  "generated_at": "2026-10-13T07:44:00.306576",
+  "generation_time_seconds": 0,
+  "executive_summary": {
+    "revenue": "513,983.00",
+    "net_income": ",",
+    "operating_income": "12,248.00",
+    "total_assets": "527,854.00",
+    "shareholders_equity": "201,875.00",
+    "overall_risk": "HIGH",
+    "total_flags": 8,
+    "risk_score": 100
+  },
+  "key_financials": {
+    "net_margin": "N/A",
+    "op_margin": "N/A",
+    "gross_margin": "N/A",
+    "debt_to_equity": "N/A",
+    "roa": "N/A",
+    "roe": "N/A",
+    "current_ratio": "N/A",
+    "eps": "N/A",
+    "ebitda": "N/A",
+    "fcf": "N/A"
+  },
+  "red_flags": {
+    "overall_risk_level": "HIGH",
+    "risk_score_out_of_100": 100,
+    "total_flags": 8,
+    "high": 1,
+    "medium": 6,
+    "low": 1,
+    "top_flags": [
+      {
+        "title": "Thin Operating Margin",
+        "severity": "LOW",
+        "category": "Profitability",
+        "description": "Operating margin is only 2.38%, leaving little buffer for cost inflation or revenue contraction.",
+        "citation": {
+          "document": "AMAZON_ANNUAL_2024.pdf",
+          "page": 49
+        }
+      },
+      {
+        "title": "Disclosure: Material Weakness Detected",
+        "severity": "HIGH",
+        "category": "Auditor & Internal Controls",
+        "description": "Disclosed mentions of material weakness found in annual filing.",
+        "citation": {
+          "document": "AMAZON_ANNUAL_2024.pdf",
+          "page": 83
+        }
+      },
+      {
+        "title": "Disclosure: Antitrust Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of antitrust, litigation found in annual filing.",
+        "citation": {
+          "document": "AMAZON_ANNUAL_2024.pdf",
+          "page": 27
+        }
+      },
+      {
+        "title": "Disclosure: Antitrust Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of antitrust, litigation found in annual filing.",
+        "citation": {
+          "document": "AMAZON_ANNUAL_2024.pdf",
+          "page": 72
+        }
+      },
+      {
+        "title": "Disclosure: Litigation Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of litigation found in annual filing.",
+        "citation": {
+          "document": "AMAZON_ANNUAL_2024.pdf",
+          "page": 72
+        }
+      },
+      {
+        "title": "Disclosure: Litigation Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of litigation found in annual filing.",
+        "citation": {
+          "document": "AMAZON_ANNUAL_2024.pdf",
+          "page": 27
+        }
+      },
+      {
+        "title": "Disclosure: Impairment Detected",
+        "severity": "MEDIUM",
+        "category": "Impairments & Solvency Risks",
+        "description": "Disclosed mentions of impairment found in annual filing.",
+        "citation": {
+          "document": "AMAZON_ANNUAL_2024.pdf",
+          "page": 59
+        }
+      },
+      {
+        "title": "Disclosure: Impairment Detected",
+        "severity": "MEDIUM",
+        "category": "Impairments & Solvency Risks",
+        "description": "Disclosed mentions of impairment found in annual filing.",
+        "citation": {
+          "document": "AMAZON_ANNUAL_2024.pdf",
+          "page": 61
+        }
+      }
+    ]
+  },
+  "comparison": {},
+  "markdown_report": "# 📑 Financial Analysis Report: AMAZON (2024)\n**Generated:** 2026-10-13 07:44:00  |  **Overall Risk Level:** `HIGH` (100/100)\n\n---\n\n## 1. Executive Summary\nAMAZON reported total revenue/sales of **513,983.00** for fiscal year 2024.\nOperating income reached **12,248.00**, reflecting an operating margin of **N/A**.\nThe company closed the year with a net income of **,** (net profit margin: **N/A**).\nTotal assets stood at **527,854.00** and shareholders' equity at **201,875.00**.\nThe automated risk scanner assigned an overall risk level of **HIGH** based on 8 detected flag(s).\n\n## 2. Key Financial Highlights & Ratios\n| Metric | Reported Value | Assessment |\n| --- | --- | --- |\n| Total Revenue | 513,983.00 | Core top-line performance |\n| Gross Profit | N/A | Revenue minus COGS |\n| Operating Income (EBIT) | 12,248.00 | Primary operating profitability |\n| Net Income | , | Bottom-line earnings |\n| EBITDA | N/A | Earnings before interest, taxes, depreciation |\n| Free Cash Flow | N/A | Operating cash flow minus CapEx |\n| Total Assets | 527,854.00 | Total balance sheet scale |\n| Shareholders' Equity | 201,875.00 | Net asset backing |\n| Total Debt | N/A | Outstanding debt obligations |\n| Cash & Equivalents | N/A | Liquid reserves |\n| Diluted EPS | N/A | Earnings per share |\n\n### Ratio Analysis\n| Ratio | Value | Benchmark |\n| --- | --- | --- |\n| Gross Margin | N/A | Pricing power & cost efficiency |\n| Operating Margin | N/A | Operational leverage |\n| Net Profit Margin | N/A | Profitability conversion |\n| Debt-to-Equity | N/A | Capital structure leverage |\n| Return on Assets (ROA) | N/A | Asset utilization efficiency |\n| Return on Equity (ROE) | N/A | Shareholder value creation |\n| Current Ratio | N/A | Short-term liquidity |\n\n## 3. Red Flag & Audit Risk Assessment\nThe automated audit scanner detected **8 flag(s)** — HIGH: 1, MEDIUM: 6, LOW: 1.\nOverall Risk Score: **100/100** (Level: **HIGH**).\n\n### Key Detected Disclosures & Anomalies:\n1. **[LOW] Thin Operating Margin** (Profitability)\n   - *Finding:* Operating margin is only 2.38%, leaving little buffer for cost inflation or revenue contraction.\n   - *Evidence:* \"Operating Margin: 2.38% (OpInc: 12,248.00, Rev: 513,983.00)\"\n   - *Citation:* `AMAZON_ANNUAL_2024.pdf`, Page 49\n\n2. **[HIGH] Disclosure: Material Weakness Detected** (Auditor & Internal Controls)\n   - *Finding:* Disclosed mentions of material weakness found in annual filing.\n   - *Evidence:* \"require that we plan and \nperform the audit to obtain reasonable assurance about whether effective internal control over financial reporting was \nmaintained in all material respects. \nOur audit includ\"\n   - *Citation:* `AMAZON_ANNUAL_2024.pdf`, Page 83\n\n3. **[MEDIUM] Disclosure: Antitrust Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of antitrust, litigation found in annual filing.\n   - *Evidence:* \"s these risks. \nClaims, Litigation, Government Investigations, and Other Proceedings May Adversely Affect Our Business and Results of \nOperations\nAs an innovative company offering a wide range of cons\"\n   - *Citation:* `AMAZON_ANNUAL_2024.pdf`, Page 27\n\n4. **[MEDIUM] Disclosure: Antitrust Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of antitrust, litigation found in annual filing.\n   - *Evidence:* \"o defend ourselves vigorously in these matters.\nIn addition, we are regularly subject to claims, litigation, and other proceedings, including potential regulatory \nproceedings, involving patent and ot\"\n   - *Citation:* `AMAZON_ANNUAL_2024.pdf`, Page 72\n\n5. **[MEDIUM] Disclosure: Litigation Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of litigation found in annual filing.\n   - *Evidence:* \"Trade Commission. The complaints allege, among other things, that certain Amazon Prime Video services and features of \nAmazon devices carrying the Prime Video app infringe Nokia’s patents; some of the\"\n   - *Citation:* `AMAZON_ANNUAL_2024.pdf`, Page 72\n\n6. **[MEDIUM] Disclosure: Litigation Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of litigation found in annual filing.\n   - *Evidence:* \"regulations, or inquiries, investigations, or \nenforcement actions threatened or initiated by them, could cause us to incur substantial costs, expose us to unanticipated civil \nand criminal liability \"\n   - *Citation:* `AMAZON_ANNUAL_2024.pdf`, Page 27\n\n7. **[MEDIUM] Disclosure: Impairment Detected** (Impairments & Solvency Risks)\n   - *Finding:* Disclosed mentions of impairment found in annual filing.\n   - *Evidence:* \"estimate the fair value of the reporting units using discounted cash \nflows. Forecasts of future cash flows are based on our best estimate of future net sales and operating expenses, based primarily \n\"\n   - *Citation:* `AMAZON_ANNUAL_2024.pdf`, Page 59\n\n8. **[MEDIUM] Disclosure: Impairment Detected** (Impairments & Solvency Risks)\n   - *Finding:* Disclosed mentions of impairment found in annual filing.\n   - *Evidence:* \"statements of operations. These warrants are \nclassified as Level 2 and 3 assets. \nThese non-marketable investments are included within “Other assets” on our consolidated balance sheets.\nCertain of ou\"\n   - *Citation:* `AMAZON_ANNUAL_2024.pdf`, Page 61\n\n## 4. Company Comparison & Benchmarking\n_No comparison data available for this report. Use the Compare command to add peer benchmarks._\n\n## 5. Strategic Outlook & Recommendation\n⚠️ **Caution Advised:** AMAZON displays multiple high-severity risk signals or regulatory disclosures requiring thorough review before credit or capital allocation.\nElevated risk factors suggest a defensive positioning strategy with active monitoring of material developments.\n\n---\n*Report compiled by FinResearch AI Multi-Agent System — October 13, 2026*"
+}

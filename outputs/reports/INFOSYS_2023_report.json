@@ -1,0 +1,131 @@
+{
+  "doc_id": "INFOSYS_2023",
+  "company": "INFOSYS",
+  "year": "2023",
+  "generated_at": "2026-10-13T07:44:07.187384",
+  "generation_time_seconds": 0,
+  "executive_summary": {
+    "revenue": "128,933.00",
+    "net_income": ".",
+    "operating_income": "9,324.00",
+    "total_assets": "137,814.00",
+    "shareholders_equity": "-1.00",
+    "overall_risk": "HIGH",
+    "total_flags": 9,
+    "risk_score": 100
+  },
+  "key_financials": {
+    "net_margin": "N/A",
+    "op_margin": "N/A",
+    "gross_margin": "30.95%",
+    "debt_to_equity": "N/A",
+    "roa": "N/A",
+    "roe": "N/A",
+    "current_ratio": "N/A",
+    "eps": "N/A",
+    "ebitda": "N/A",
+    "fcf": "N/A"
+  },
+  "red_flags": {
+    "overall_risk_level": "HIGH",
+    "risk_score_out_of_100": 100,
+    "total_flags": 9,
+    "high": 3,
+    "medium": 6,
+    "low": 0,
+    "top_flags": [
+      {
+        "title": "Negative Shareholders' Equity",
+        "severity": "HIGH",
+        "category": "Solvency & Capital Structure",
+        "description": "Stockholders' equity is negative (-1.00), meaning accumulated liabilities exceed assets.",
+        "citation": {
+          "document": "INFOSYS_ANNUAL_2023.pdf",
+          "page": 110
+        }
+      },
+      {
+        "title": "Disclosure: Going Concern Detected",
+        "severity": "HIGH",
+        "category": "Auditor & Internal Controls",
+        "description": "Disclosed mentions of going concern found in annual filing.",
+        "citation": {
+          "document": "INFOSYS_ANNUAL_2023.pdf",
+          "page": 181
+        }
+      },
+      {
+        "title": "Disclosure: Material Weakness Detected",
+        "severity": "HIGH",
+        "category": "Auditor & Internal Controls",
+        "description": "Disclosed mentions of material weakness found in annual filing.",
+        "citation": {
+          "document": "INFOSYS_ANNUAL_2023.pdf",
+          "page": 184
+        }
+      },
+      {
+        "title": "Disclosure: Penalty Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of penalty found in annual filing.",
+        "citation": {
+          "document": "INFOSYS_ANNUAL_2023.pdf",
+          "page": 140
+        }
+      },
+      {
+        "title": "Disclosure: Class Action Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of class action found in annual filing.",
+        "citation": {
+          "document": "INFOSYS_ANNUAL_2023.pdf",
+          "page": 327
+        }
+      },
+      {
+        "title": "Disclosure: Litigation Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of litigation found in annual filing.",
+        "citation": {
+          "document": "INFOSYS_ANNUAL_2023.pdf",
+          "page": 124
+        }
+      },
+      {
+        "title": "Disclosure: Impairment Detected",
+        "severity": "MEDIUM",
+        "category": "Impairments & Solvency Risks",
+        "description": "Disclosed mentions of impairment found in annual filing.",
+        "citation": {
+          "document": "INFOSYS_ANNUAL_2023.pdf",
+          "page": 287
+        }
+      },
+      {
+        "title": "Disclosure: Impairment Detected",
+        "severity": "MEDIUM",
+        "category": "Impairments & Solvency Risks",
+        "description": "Disclosed mentions of impairment found in annual filing.",
+        "citation": {
+          "document": "INFOSYS_ANNUAL_2023.pdf",
+          "page": 282
+        }
+      },
+      {
+        "title": "Disclosure: Impairment Detected",
+        "severity": "MEDIUM",
+        "category": "Impairments & Solvency Risks",
+        "description": "Disclosed mentions of impairment found in annual filing.",
+        "citation": {
+          "document": "INFOSYS_ANNUAL_2023.pdf",
+          "page": 284
+        }
+      }
+    ]
+  },
+  "comparison": {},
+  "markdown_report": "# 📑 Financial Analysis Report: INFOSYS (2023)\n**Generated:** 2026-10-13 07:44:07  |  **Overall Risk Level:** `HIGH` (100/100)\n\n---\n\n## 1. Executive Summary\nINFOSYS reported total revenue/sales of **128,933.00** for fiscal year 2023.\nOperating income reached **9,324.00**, reflecting an operating margin of **N/A**.\nThe company closed the year with a net income of **.** (net profit margin: **N/A**).\nTotal assets stood at **137,814.00** and shareholders' equity at **-1.00**.\nThe automated risk scanner assigned an overall risk level of **HIGH** based on 9 detected flag(s).\n\n## 2. Key Financial Highlights & Ratios\n| Metric | Reported Value | Assessment |\n| --- | --- | --- |\n| Total Revenue | 128,933.00 | Core top-line performance |\n| Gross Profit | 39,901.00 | Revenue minus COGS |\n| Operating Income (EBIT) | 9,324.00 | Primary operating profitability |\n| Net Income | . | Bottom-line earnings |\n| EBITDA | N/A | Earnings before interest, taxes, depreciation |\n| Free Cash Flow | N/A | Operating cash flow minus CapEx |\n| Total Assets | 137,814.00 | Total balance sheet scale |\n| Shareholders' Equity | -1.00 | Net asset backing |\n| Total Debt | N/A | Outstanding debt obligations |\n| Cash & Equivalents | N/A | Liquid reserves |\n| Diluted EPS | N/A | Earnings per share |\n\n### Ratio Analysis\n| Ratio | Value | Benchmark |\n| --- | --- | --- |\n| Gross Margin | 30.95% | Pricing power & cost efficiency |\n| Operating Margin | N/A | Operational leverage |\n| Net Profit Margin | N/A | Profitability conversion |\n| Debt-to-Equity | N/A | Capital structure leverage |\n| Return on Assets (ROA) | N/A | Asset utilization efficiency |\n| Return on Equity (ROE) | N/A | Shareholder value creation |\n| Current Ratio | N/A | Short-term liquidity |\n\n## 3. Red Flag & Audit Risk Assessment\nThe automated audit scanner detected **9 flag(s)** — HIGH: 3, MEDIUM: 6, LOW: 0.\nOverall Risk Score: **100/100** (Level: **HIGH**).\n\n### Key Detected Disclosures & Anomalies:\n1. **[HIGH] Negative Shareholders' Equity** (Solvency & Capital Structure)\n   - *Finding:* Stockholders' equity is negative (-1.00), meaning accumulated liabilities exceed assets.\n   - *Evidence:* \"Stockholders' Equity: -1.00\"\n   - *Citation:* `INFOSYS_ANNUAL_2023.pdf`, Page 110\n\n2. **[HIGH] Disclosure: Going Concern Detected** (Auditor & Internal Controls)\n   - *Finding:* Disclosed mentions of going concern found in annual filing.\n   - *Evidence:* \"iateness of management’s use of the going concern basis of accounting and, based on the audit evidence \nobtained, whether a material uncertainty exists related to events or conditions that may cast si\"\n   - *Citation:* `INFOSYS_ANNUAL_2023.pdf`, Page 181\n\n3. **[HIGH] Disclosure: Material Weakness Detected** (Auditor & Internal Controls)\n   - *Finding:* Disclosed mentions of material weakness found in annual filing.\n   - *Evidence:* \"material respects.\nOur audit involves performing procedures to obtain audit evidence about the adequacy of the internal financial controls with \nreference to Standalone Financial Statements and their \"\n   - *Citation:* `INFOSYS_ANNUAL_2023.pdf`, Page 184\n\n4. **[MEDIUM] Disclosure: Penalty Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of penalty found in annual filing.\n   - *Evidence:* \"internal learning \nplatform and Infosys Springboard, our flagship digital learning platform.\n2. \u0007Details of fines / penalties /punishment/ award/ compounding fees/ settlement amount paid in proceeding\"\n   - *Citation:* `INFOSYS_ANNUAL_2023.pdf`, Page 140\n\n5. **[MEDIUM] Disclosure: Class Action Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of class action found in annual filing.\n   - *Evidence:* \"ty eDiscovery vendor \nhas identified corporate customers and individuals whose \ninformation was subject to unauthorized access and exfiltration. \nMcCamish’s review process is ongoing. McCamish may inc\"\n   - *Citation:* `INFOSYS_ANNUAL_2023.pdf`, Page 327\n\n6. **[MEDIUM] Disclosure: Litigation Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of litigation found in annual filing.\n   - *Evidence:* \"trols to mitigate the risks\n•\t\nMulti-layered governance process for contract \napproval\n•\t\nDedicated teams to adhere to, monitor and audit \ncontractual obligations\n•\t\nComprehensive Board-level monitori\"\n   - *Citation:* `INFOSYS_ANNUAL_2023.pdf`, Page 124\n\n7. **[MEDIUM] Disclosure: Impairment Detected** (Impairments & Solvency Risks)\n   - *Finding:* Disclosed mentions of impairment found in annual filing.\n   - *Evidence:* \"f the total capital work in progress.\n2.4 Goodwill and other intangible assets\n2.4.1 Goodwill\nAccounting policy\nGoodwill represents the purchase consideration in excess of \nthe Group's interest in the\"\n   - *Citation:* `INFOSYS_ANNUAL_2023.pdf`, Page 287\n\n8. **[MEDIUM] Disclosure: Impairment Detected** (Impairments & Solvency Risks)\n   - *Finding:* Disclosed mentions of impairment found in annual filing.\n   - *Evidence:* \"gy. Also, refer to Note 2.2.\ne. Impairment of goodwill\nGoodwill is tested for impairment on an annual basis and \nwhenever there is an indication that the recoverable amount of a \nCash Generating Unit \"\n   - *Citation:* `INFOSYS_ANNUAL_2023.pdf`, Page 282\n\n## 4. Company Comparison & Benchmarking\n_No comparison data available for this report. Use the Compare command to add peer benchmarks._\n\n## 5. Strategic Outlook & Recommendation\n⚠️ **Caution Advised:** INFOSYS displays multiple high-severity risk signals or regulatory disclosures requiring thorough review before credit or capital allocation.\nElevated risk factors suggest a defensive positioning strategy with active monitoring of material developments.\n\n---\n*Report compiled by FinResearch AI Multi-Agent System — October 13, 2026*"
+}

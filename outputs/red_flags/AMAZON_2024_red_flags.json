@@ -1,0 +1,136 @@
+{
+  "doc_id": "AMAZON_2024",
+  "company": "AMAZON",
+  "year": "2024",
+  "scanned_at": "2026-10-12T17:54:03.815756",
+  "summary": {
+    "overall_risk_level": "HIGH",
+    "risk_score_out_of_100": 100,
+    "total_flags": 8,
+    "high_severity_count": 1,
+    "medium_severity_count": 6,
+    "low_severity_count": 1
+  },
+  "red_flags": [
+    {
+      "id": "FLAG_THIN_MARGIN",
+      "category": "Profitability",
+      "severity": "LOW",
+      "title": "Thin Operating Margin",
+      "description": "Operating margin is only 2.38%, leaving little buffer for cost inflation or revenue contraction.",
+      "evidence": "Operating Margin: 2.38% (OpInc: 12,248.00, Rev: 513,983.00)",
+      "provenance": {
+        "document": "AMAZON_ANNUAL_2024.pdf",
+        "page_number": 49,
+        "raw_text": "12,248"
+      }
+    },
+    {
+      "id": "FLAG_MATERIAL_WEAKNESS",
+      "category": "Auditor & Internal Controls",
+      "severity": "HIGH",
+      "title": "Disclosure: Material Weakness Detected",
+      "description": "Disclosed mentions of material weakness found in annual filing.",
+      "evidence": "require that we plan and \nperform the audit to obtain reasonable assurance about whether effective internal control over financial reporting was \nmaintained in all material respects. \nOur audit included obtaining an understanding of internal control over financial reporting, assessing the risk that",
+      "provenance": {
+        "document": "AMAZON_ANNUAL_2024.pdf",
+        "page_number": 83,
+        "matched_keywords": [
+          "material weakness"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_ANTITRUST",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Antitrust Detected",
+      "description": "Disclosed mentions of antitrust, litigation found in annual filing.",
+      "evidence": "s these risks. \nClaims, Litigation, Government Investigations, and Other Proceedings May Adversely Affect Our Business and Results of \nOperations\nAs an innovative company offering a wide range of consumer and business products and services around the world, we \nare regularly subject to actual and th",
+      "provenance": {
+        "document": "AMAZON_ANNUAL_2024.pdf",
+        "page_number": 27,
+        "matched_keywords": [
+          "antitrust",
+          "litigation"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_ANTITRUST",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Antitrust Detected",
+      "description": "Disclosed mentions of antitrust, litigation found in annual filing.",
+      "evidence": "o defend ourselves vigorously in these matters.\nIn addition, we are regularly subject to claims, litigation, and other proceedings, including potential regulatory \nproceedings, involving patent and other intellectual property matters, taxes, labor and employment, competition and antitrust, \nprivacy",
+      "provenance": {
+        "document": "AMAZON_ANNUAL_2024.pdf",
+        "page_number": 72,
+        "matched_keywords": [
+          "antitrust",
+          "litigation"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_LITIGATION",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Litigation Detected",
+      "description": "Disclosed mentions of litigation found in annual filing.",
+      "evidence": "Trade Commission. The complaints allege, among other things, that certain Amazon Prime Video services and features of \nAmazon devices carrying the Prime Video app infringe Nokia’s patents; some of the complaints additionally allege \ninfringement by Freevee, Twitch, and Amazon voice assistants. The c",
+      "provenance": {
+        "document": "AMAZON_ANNUAL_2024.pdf",
+        "page_number": 72,
+        "matched_keywords": [
+          "litigation"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_LITIGATION",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Litigation Detected",
+      "description": "Disclosed mentions of litigation found in annual filing.",
+      "evidence": "regulations, or inquiries, investigations, or \nenforcement actions threatened or initiated by them, could cause us to incur substantial costs, expose us to unanticipated civil \nand criminal liability or penalties (including substantial monetary fines), diminish the demand for, or availability of, ou",
+      "provenance": {
+        "document": "AMAZON_ANNUAL_2024.pdf",
+        "page_number": 27,
+        "matched_keywords": [
+          "litigation"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_IMPAIRMENT",
+      "category": "Impairments & Solvency Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Impairment Detected",
+      "description": "Disclosed mentions of impairment found in annual filing.",
+      "evidence": "estimate the fair value of the reporting units using discounted cash \nflows. Forecasts of future cash flows are based on our best estimate of future net sales and operating expenses, based primarily \non expected category expansion, pricing, market segment share, and general economic conditions.\nWe c",
+      "provenance": {
+        "document": "AMAZON_ANNUAL_2024.pdf",
+        "page_number": 59,
+        "matched_keywords": [
+          "impairment"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_IMPAIRMENT",
+      "category": "Impairments & Solvency Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Impairment Detected",
+      "description": "Disclosed mentions of impairment found in annual filing.",
+      "evidence": "statements of operations. These warrants are \nclassified as Level 2 and 3 assets. \nThese non-marketable investments are included within “Other assets” on our consolidated balance sheets.\nCertain of our investments represent a variable interest in an entity. We do not consolidate the entities in whic",
+      "provenance": {
+        "document": "AMAZON_ANNUAL_2024.pdf",
+        "page_number": 61,
+        "matched_keywords": [
+          "impairment"
+        ]
+      }
+    }
+  ]
+}

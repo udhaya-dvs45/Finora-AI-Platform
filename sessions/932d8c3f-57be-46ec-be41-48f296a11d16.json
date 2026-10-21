@@ -1,0 +1,28 @@
+{
+  "session_id": "932d8c3f-57be-46ec-be41-48f296a11d16",
+  "name": "Milestone 2 Demo",
+  "created_at": "2026-09-23T22:37:46.349888",
+  "documents": [
+    {
+      "doc_id": "APPLE_2024",
+      "company": "APPLE",
+      "year": "2024",
+      "filename": "APPLE_ANNUAL_2024.pdf",
+      "processed_at": "2026-09-23T22:48:50.276931"
+    },
+    {
+      "doc_id": "TESLA_2023",
+      "company": "TESLA",
+      "year": "2023",
+      "filename": "TESLA_ANNUAL_2023.pdf",
+      "processed_at": "2026-09-23T22:48:57.549640"
+    },
+    {
+      "doc_id": "INFOSYS_2023",
+      "company": "INFOSYS",
+      "year": "2023",
+      "filename": "INFOSYS_ANNUAL_2023.pdf",
+      "processed_at": "2026-09-23T22:49:12.204736"
+    }
+  ]
+}

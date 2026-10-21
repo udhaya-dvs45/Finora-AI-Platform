@@ -1,0 +1,199 @@
+{
+  "doc_id": "APPLE_2024",
+  "company": "APPLE",
+  "year": "2024",
+  "scanned_at": "2026-10-12T16:02:36.246193",
+  "summary": {
+    "overall_risk_level": "HIGH",
+    "risk_score_out_of_100": 100,
+    "total_flags": 12,
+    "high_severity_count": 1,
+    "medium_severity_count": 11,
+    "low_severity_count": 0
+  },
+  "red_flags": [
+    {
+      "id": "FLAG_HIGH_LEVERAGE",
+      "category": "Solvency & Capital Structure",
+      "severity": "HIGH",
+      "title": "Severe Financial Leverage",
+      "description": "Debt-to-Equity ratio is 5.41, indicating heavily leveraged capital structure.",
+      "evidence": "Debt/Equity ratio: 5.41",
+      "provenance": {
+        "calculated": true,
+        "ratio": 5.4088
+      }
+    },
+    {
+      "id": "FLAG_ANTITRUST",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Antitrust Detected",
+      "description": "Disclosed mentions of antitrust, lawsuit, litigation found in annual filing.",
+      "evidence": "and has continued to make changes to its compliance plan in response to feedback and \nengagement with the Commission.\nDepartment of Justice Lawsuit\nOn March 21, 2024, the U.S. Department of Justice (the “DOJ”) and a number of state and district attorneys general filed a civil \nantitrust lawsuit in t",
+      "provenance": {
+        "document": "APPLE_ANNUAL_2024.pdf",
+        "page_number": 21,
+        "matched_keywords": [
+          "antitrust",
+          "lawsuit",
+          "litigation"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_ANTITRUST",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Antitrust Detected",
+      "description": "Disclosed mentions of antitrust, litigation found in annual filing.",
+      "evidence": "t the Company that could, individually or in the aggregate, have a materially \nadverse impact on the Company’s business, results of operations and financial condition. For example, the Company is subject \nto civil antitrust lawsuits in the U.S. alleging monopolization or attempted monopolization in",
+      "provenance": {
+        "document": "APPLE_ANNUAL_2024.pdf",
+        "page_number": 17,
+        "matched_keywords": [
+          "antitrust",
+          "litigation"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_LITIGATION",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Litigation Detected",
+      "description": "Disclosed mentions of litigation found in annual filing.",
+      "evidence": "t or other violations of intellectual property rights. The Company is vigorously defending \ninfringement actions in courts in several U.S. jurisdictions, as well as internationally in various countries. The plaintiffs in these \nactions frequently seek broad injunctive relief and substantial damages.",
+      "provenance": {
+        "document": "APPLE_ANNUAL_2024.pdf",
+        "page_number": 16,
+        "matched_keywords": [
+          "litigation"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_INVESTIGATION",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Investigation Detected",
+      "description": "Disclosed mentions of investigation, lawsuit found in annual filing.",
+      "evidence": "d formal investigation against the Company regarding whether the Company’s new contractual requirements for third-party \napp developers and app marketplaces may violate the DMA. If the Commission makes a final determination that there has been \na violation, it can issue a cease and desist order and",
+      "provenance": {
+        "document": "APPLE_ANNUAL_2024.pdf",
+        "page_number": 21,
+        "matched_keywords": [
+          "investigation",
+          "lawsuit"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_LITIGATION",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Litigation Detected",
+      "description": "Disclosed mentions of litigation found in annual filing.",
+      "evidence": "20.\nChoice of Venue.  For purposes of litigating any dispute that arises directly or indirectly \nfrom the relationship of the parties evidenced by this grant or this Award Agreement, the parties hereby \nsubmit to the exclusive jurisdiction of the State of California and agree that such litigation sh",
+      "provenance": {
+        "document": "APPLE_ANNUAL_2024.pdf",
+        "page_number": 81,
+        "matched_keywords": [
+          "litigation"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_LITIGATION",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Litigation Detected",
+      "description": "Disclosed mentions of litigation found in annual filing.",
+      "evidence": "ant or this Award Agreement, the parties hereby \nsubmit to the exclusive jurisdiction of the State of California and agree that such litigation shall be \nconducted only in the courts of Santa Clara County, California, or the federal courts for the Northern \nDistrict of California, and no other court",
+      "provenance": {
+        "document": "APPLE_ANNUAL_2024.pdf",
+        "page_number": 88,
+        "matched_keywords": [
+          "litigation"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_INJUNCTION",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Injunction Detected",
+      "description": "Disclosed mentions of injunction, litigation found in annual filing.",
+      "evidence": "pany has opposed, is pending before the California District Court. On September 30, 2024, the Company filed a motion with \nthe California District Court to narrow or vacate the injunction. The Company believes it has substantial defenses and intends to \nvigorously defend itself.\nOther Legal Proceedi",
+      "provenance": {
+        "document": "APPLE_ANNUAL_2024.pdf",
+        "page_number": 21,
+        "matched_keywords": [
+          "injunction",
+          "litigation"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_IMPAIRMENT",
+      "category": "Impairments & Solvency Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Impairment Detected",
+      "description": "Disclosed mentions of impairment, write-down found in annual filing.",
+      "evidence": "duct and component inventories that have become obsolete or exceed anticipated \ndemand, or for which cost exceeds net realizable value. The Company also accrues necessary cancellation fee reserves for \norders of excess products and components. The Company reviews long-lived assets, including capital",
+      "provenance": {
+        "document": "APPLE_ANNUAL_2024.pdf",
+        "page_number": 12,
+        "matched_keywords": [
+          "impairment",
+          "write-down"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_DEFAULT",
+      "category": "Impairments & Solvency Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Default Detected",
+      "description": "Disclosed mentions of default found in annual filing.",
+      "evidence": "easance”) or (2) to be released \nfrom our obligations to comply with the restrictive covenants under the applicable Indenture, and any omission to \ncomply with such obligations will not constitute a default or an event of default with respect to the Notes of a series \nand clauses (3) and (6) under t",
+      "provenance": {
+        "document": "APPLE_ANNUAL_2024.pdf",
+        "page_number": 73,
+        "matched_keywords": [
+          "default"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_DEFAULT",
+      "category": "Impairments & Solvency Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Default Detected",
+      "description": "Disclosed mentions of default found in annual filing.",
+      "evidence": "interest which have become due solely by such acceleration, have been cured or waived, as provided \nin the Indentures.\nAn event of default for a particular series of debt securities does not necessarily constitute an event of \ndefault for any other series of debt securities issued under the Indentur",
+      "provenance": {
+        "document": "APPLE_ANNUAL_2024.pdf",
+        "page_number": 70,
+        "matched_keywords": [
+          "default"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_DEFAULT",
+      "category": "Impairments & Solvency Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Default Detected",
+      "description": "Disclosed mentions of default found in annual filing.",
+      "evidence": "f a series \nmay, on behalf of the holders of all Notes of that series, waive any past default and its consequences under the \napplicable Indenture with respect to the Notes of that series, except a default (1) in the payment of principal or \npremium, if any, or interest on Notes of that series or (2",
+      "provenance": {
+        "document": "APPLE_ANNUAL_2024.pdf",
+        "page_number": 72,
+        "matched_keywords": [
+          "default"
+        ]
+      }
+    }
+  ]
+}

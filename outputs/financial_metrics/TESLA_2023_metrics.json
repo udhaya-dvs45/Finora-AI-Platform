@@ -1,0 +1,154 @@
+{
+  "doc_id": "TESLA_2023",
+  "company": "TESLA",
+  "year": "2023",
+  "extracted_at": "2026-10-12T16:12:21.453845",
+  "metrics": {
+    "revenue": {
+      "value": 90738.0,
+      "raw_text": "$\n90,738",
+      "source_text": "acture,\ninstallation, sales and leasing of solar energy generation and energy storage products and related services and sales of solar energy systems incentives.\nOur CODM does not evaluate operating segments using asset or liability information. The following table presents revenues and gross profit by reportable\nsegment (in millions):\nYear Ended December 31,\n2023\n2022\n2021\nAutomotive segment\n \n \n",
+      "document": "TESLA_ANNUAL_2023.pdf",
+      "page_number": 94,
+      "company": "TESLA",
+      "year": "2023",
+      "confidence": "high"
+    },
+    "net_income": {
+      "value": 14997.0,
+      "raw_text": "$\n14,997",
+      "source_text": "come attributable to noncontrolling interests and redeemable noncontrolling interests\nin subsidiaries\n(23)\n31 \n125 \nNet income attributable to common stockholders\n$\n14,997 \n$\n12,556 \n$\n5,519 \n \nNet income per share of common stock attributable to common stockholders\nBasic\n$\n4.73 \n$\n4.02 \n$\n1.87 \nDiluted\n$\n4.30 \n$\n3.62 \n$\n1.63 \nWeighted average shares used in computing net income per share of commo",
+      "document": "TESLA_ANNUAL_2023.pdf",
+      "page_number": 51,
+      "company": "TESLA",
+      "year": "2023",
+      "confidence": "high"
+    },
+    "operating_income": {
+      "value": 8891.0,
+      "raw_text": "8,891",
+      "source_text": "2,918 \nServices and other\n7,830 \n5,880 \n3,906 \nTotal cost of revenues\n79,113 \n60,609 \n40,217 \nGross profit\n17,660 \n20,853 \n13,606 \nOperating expenses\nResearch and development\n3,969 \n3,075 \n2,593 \nSelling, general and administrative\n4,800 \n3,946 \n4,517 \nRestructuring and other\n— \n176 \n(27)\nTotal operating expenses\n8,769 \n7,197 \n7,083 \nIncome from operations\n8,891 \n13,656 \n6,523 \nInterest income\n1,0",
+      "document": "TESLA_ANNUAL_2023.pdf",
+      "page_number": 51,
+      "company": "TESLA",
+      "year": "2023",
+      "confidence": "high"
+    },
+    "gross_profit": {
+      "value": 17660.0,
+      "raw_text": "$\n17,660",
+      "source_text": "7,299 \n17,231 \n30 %\n19,689 \n53 %\nEnergy generation and storage segment\n4,894 \n3,621 \n2,918 \n1,273 \n35 %\n703 \n24 %\nTotal cost of revenues\n$\n79,113 \n$\n60,609 \n$\n40,217 \n$\n18,504 \n31 %\n$\n20,392 \n51 %\nGross profit total automotive\n$\n16,030 \n$\n20,354 \n$\n13,839 \nGross margin total automotive\n19.4 %\n28.5 %\n29.3 %\nGross profit total automotive & services and other\nsegment\n$\n16,519 \n$\n20,565 \n$\n13,735 \nGro",
+      "document": "TESLA_ANNUAL_2023.pdf",
+      "page_number": 40,
+      "company": "TESLA",
+      "year": "2023",
+      "confidence": "high"
+    },
+    "total_assets": {
+      "value": 4087.0,
+      "raw_text": "$\n4,087",
+      "source_text": "The aggregate carrying values of the VIEs’ assets and liabilities, after elimination of any intercompany transactions and balances, in the\nconsolidated balance sheets were as follows (in millions):\nDecember 31,\n2023\nDecember 31,\n2022\nAssets\n \n \nCurrent assets\n \n \nCash and cash equivalents\n$\n66 \n$\n68 \nAccounts receivable, net\n13 \n22 \nPrepaid expenses and other current assets\n361 \n274 \nTotal current",
+      "document": "TESLA_ANNUAL_2023.pdf",
+      "page_number": 93,
+      "company": "TESLA",
+      "year": "2023",
+      "confidence": "high"
+    },
+    "total_liabilities": {
+      "value": 43009.0,
+      "raw_text": "43,009",
+      "source_text": "ed tax assets\n6,733 \n328 \nOther non-current assets\n4,531 \n3,865 \nTotal assets\n$\n106,618 \n$\n82,338 \nLiabilities\nCurrent liabilities\nAccounts payable\n$\n14,431 \n$\n15,255 \nAccrued liabilities and other\n9,080 \n8,205 \nDeferred revenue\n2,864 \n1,747 \nCurrent portion of debt and finance leases\n2,373 \n1,502 \nTotal current liabilities\n28,748 \n26,709 \nDebt and finance leases, net of current portion\n2,857 \n1,5",
+      "document": "TESLA_ANNUAL_2023.pdf",
+      "page_number": 50,
+      "company": "TESLA",
+      "year": "2023",
+      "confidence": "high"
+    },
+    "shareholders_equity": {
+      "value": 62634.0,
+      "raw_text": "62,634",
+      "source_text": "olders’ equity\nPreferred stock; $0.001 par value; 100 shares authorized; no shares issued and outstanding\n— \n— \nCommon stock; $0.001 par value; 6,000 shares authorized; 3,185 and 3,164 shares issued and outstanding as of\nDecember 31, 2023 and 2022, respectively\n3 \n3 \nAdditional paid-in capital\n34,892 \n32,177 \nAccumulated other comprehensive loss\n(143)\n(361)\nRetained earnings\n27,882 \n12,885 \nTotal ",
+      "document": "TESLA_ANNUAL_2023.pdf",
+      "page_number": 50,
+      "company": "TESLA",
+      "year": "2023",
+      "confidence": "high"
+    },
+    "operating_cash_flow": {
+      "value": 13256.0,
+      "raw_text": "$\n13,256",
+      "source_text": "Summary of Cash Flows\n \nYear Ended December 31,\n(Dollars in millions)\n2023\n2022\n2021\nNet cash provided by operating activities\n$\n13,256 \n$\n14,724 \n$\n11,497 \nNet cash used in investing activities\n$\n(15,584)\n$\n(11,973)\n$\n(7,868)\nNet cash provided by (used in) financing activities\n$\n2,589 \n$\n(3,527)\n$\n(5,203)\nCash Flows from Operating Activities\nOur cash flows from operating activities are significan",
+      "document": "TESLA_ANNUAL_2023.pdf",
+      "page_number": 45,
+      "company": "TESLA",
+      "year": "2023",
+      "confidence": "high"
+    },
+    "eps": {
+      "value": null,
+      "raw_text": null,
+      "source_text": null,
+      "document": null,
+      "page_number": null,
+      "company": "TESLA",
+      "year": "2023",
+      "confidence": "not_found"
+    },
+    "revenue_trend": {
+      "value": 14000000.0,
+      "raw_text": "$14 million, or 1%, in the year ended December 31, 2023 as compared to the year",
+      "source_text": "s from production ramping of Model Y globally. The increase\nwas partially offset by a lower average selling price on our vehicles driven by overall price reductions year over year, sales mix, and a negative impact\nfrom the United States dollar strengthening against other foreign currencies in the year ended December 31, 2023 compared to the prior year.\nAutomotive regulatory credits revenue increas",
+      "document": "TESLA_ANNUAL_2023.pdf",
+      "page_number": 39,
+      "company": "TESLA",
+      "year": "2023",
+      "confidence": "high"
+    }
+  },
+  "ratios": {
+    "net_profit_margin": {
+      "value": 0.1653,
+      "percentage": "16.53%",
+      "formula": "Net Income / Revenue",
+      "inputs_used": {
+        "net_income": 14997.0,
+        "revenue": 90738.0
+      }
+    },
+    "gross_margin": {
+      "value": 0.1946,
+      "percentage": "19.46%",
+      "formula": "Gross Profit / Revenue",
+      "inputs_used": {
+        "gross_profit": 17660.0,
+        "revenue": 90738.0
+      }
+    },
+    "debt_to_equity": {
+      "value": 0.6867,
+      "formula": "Total Liabilities / Shareholders Equity",
+      "inputs_used": {
+        "total_liabilities": 43009.0,
+        "equity": 62634.0
+      }
+    },
+    "return_on_assets": {
+      "value": 3.6694,
+      "percentage": "366.94%",
+      "formula": "Net Income / Total Assets",
+      "inputs_used": {
+        "net_income": 14997.0,
+        "total_assets": 4087.0
+      }
+    },
+    "equity_ratio": {
+      "value": 15.3252,
+      "percentage": "1532.52%",
+      "formula": "Shareholders Equity / Total Assets",
+      "inputs_used": {
+        "equity": 62634.0,
+        "total_assets": 4087.0
+      }
+    }
+  }
+}

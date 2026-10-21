@@ -1,0 +1,136 @@
+{
+  "doc_id": "APPLE_2025",
+  "company": "APPLE",
+  "year": "2025",
+  "scanned_at": "2026-10-12T18:14:11.494919",
+  "summary": {
+    "overall_risk_level": "HIGH",
+    "risk_score_out_of_100": 100,
+    "total_flags": 8,
+    "high_severity_count": 1,
+    "medium_severity_count": 7,
+    "low_severity_count": 0
+  },
+  "red_flags": [
+    {
+      "id": "FLAG_HIGH_LEVERAGE",
+      "category": "Solvency & Capital Structure",
+      "severity": "HIGH",
+      "title": "Severe Financial Leverage",
+      "description": "Debt-to-Equity ratio is 3.87, indicating heavily leveraged capital structure.",
+      "evidence": "Debt/Equity ratio: 3.87",
+      "provenance": {
+        "calculated": true,
+        "ratio": 3.8722
+      }
+    },
+    {
+      "id": "FLAG_INVESTIGATION",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Investigation Detected",
+      "description": "Disclosed mentions of investigation, antitrust, lawsuit found in annual filing.",
+      "evidence": "Investigation that there has been a violation, it can issue a cease and desist order and may impose fines up to 10% of the \nCompany’s annual worldwide net sales. The Commission may also seek to impose additional fines if it deems that the Company \nhas violated a cease and desist order. The Company b",
+      "provenance": {
+        "document": "APPLE_ANNUAL_2025.pdf",
+        "page_number": 21,
+        "matched_keywords": [
+          "investigation",
+          "antitrust",
+          "lawsuit"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_ANTITRUST",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Antitrust Detected",
+      "description": "Disclosed mentions of antitrust, litigation found in annual filing.",
+      "evidence": "the Company’s business, results of operations, financial condition and stock price. For example, the Company is \nsubject to civil antitrust lawsuits in the U.S. alleging monopolization or attempted monopolization in the markets for “performance \nsmartphones” and “smartphones” generally in violation",
+      "provenance": {
+        "document": "APPLE_ANNUAL_2025.pdf",
+        "page_number": 17,
+        "matched_keywords": [
+          "antitrust",
+          "litigation"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_LITIGATION",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Litigation Detected",
+      "description": "Disclosed mentions of litigation found in annual filing.",
+      "evidence": "The outcome of litigation or government investigations is inherently uncertain. If one or more legal matters were resolved against \nthe Company or an indemnified third party in a reporting period for amounts above management’s expectations, the Company’s \nresults of operations, financial condition a",
+      "provenance": {
+        "document": "APPLE_ANNUAL_2025.pdf",
+        "page_number": 16,
+        "matched_keywords": [
+          "litigation"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_LITIGATION",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Litigation Detected",
+      "description": "Disclosed mentions of litigation found in annual filing.",
+      "evidence": "Thereafter\n \n773 \nTotal\n$ \n13,308 \nContingencies\nThe Company is subject to various legal proceedings and claims that have arisen in the ordinary course of business and that \nhave not been fully resolved. The outcome of litigation is inherently uncertain. In the opinion of management, there was not a",
+      "provenance": {
+        "document": "APPLE_ANNUAL_2025.pdf",
+        "page_number": 49,
+        "matched_keywords": [
+          "litigation"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_LITIGATION",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Litigation Detected",
+      "description": "Disclosed mentions of litigation found in annual filing.",
+      "evidence": "iffs \nin these actions frequently seek broad injunctive relief and substantial damages.\nRegardless of the merit of particular claims, defending against litigation or responding to government investigations can be \nexpensive, time-consuming and disruptive to the Company’s operations. In recognition o",
+      "provenance": {
+        "document": "APPLE_ANNUAL_2025.pdf",
+        "page_number": 15,
+        "matched_keywords": [
+          "litigation"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_DEFAULT",
+      "category": "Impairments & Solvency Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Default Detected",
+      "description": "Disclosed mentions of default found in annual filing.",
+      "evidence": "h action does not adversely affect the rights or \ninterests of any holder of debt securities in any material respect.\nThe holders of at least a majority in aggregate principal amount of the outstanding Notes of any series may, \non behalf of the holders of all Notes of that series, waive compliance b",
+      "provenance": {
+        "document": "APPLE_ANNUAL_2025.pdf",
+        "page_number": 73,
+        "matched_keywords": [
+          "default"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_DEFAULT",
+      "category": "Impairments & Solvency Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Default Detected",
+      "description": "Disclosed mentions of default found in annual filing.",
+      "evidence": "easance”) or (2) to be released \nfrom our obligations to comply with the restrictive covenants under the applicable Indenture, and any omission to \ncomply with such obligations will not constitute a default or an event of default with respect to the Notes of a series \nand clauses (3) and (6) under t",
+      "provenance": {
+        "document": "APPLE_ANNUAL_2025.pdf",
+        "page_number": 74,
+        "matched_keywords": [
+          "default"
+        ]
+      }
+    }
+  ]
+}

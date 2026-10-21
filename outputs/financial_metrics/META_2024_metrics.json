@@ -1,0 +1,145 @@
+{
+  "doc_id": "META_2024",
+  "company": "META",
+  "year": "2024",
+  "extracted_at": "2026-10-12T17:58:00.503671",
+  "metrics": {
+    "revenue": {
+      "value": 164501.0,
+      "raw_text": "$\n164,501",
+      "source_text": "Table of Contents\nResults of Operations\nIn this section, we discuss the results of our operations for the year ended December 31, 2024 compared to the year ended December 31, 2023. For a\ndiscussion of the year ended December 31, 2023 compared to the year ended December 31, 2022, please refer to Part II, Item 7, \"Management's Discussion and\nAnalysis of Financial Condition and Results of Operations\"",
+      "document": "META_ANNUAL_2024.pdf",
+      "page_number": 72,
+      "company": "META",
+      "year": "2024",
+      "confidence": "high"
+    },
+    "net_income": {
+      "value": 62360.0,
+      "raw_text": "$\n62,360",
+      "source_text": ",303 \n8,330 \n5,619 \nNet income\n$\n62,360 \n$\n39,098 \n$\n23,200 \nEarnings per share:\n \n \n \nBasic\n$\n24.61 \n$\n15.19 \n$\n8.63 \nDiluted\n$\n23.86 \n$\n14.87 \n$\n8.59 \nWeighted-average shares used to compute earnings per share:\nBasic\n2,534 \n2,574 \n2,687 \nDiluted\n2,614 \n2,629 \n2,702 \nSee Accompanying Notes to Consolidated Financial Statements.\n87",
+      "document": "META_ANNUAL_2024.pdf",
+      "page_number": 88,
+      "company": "META",
+      "year": "2024",
+      "confidence": "high"
+    },
+    "operating_income": {
+      "value": 69380.0,
+      "raw_text": "69,380",
+      "source_text": "Table of Contents\nMETA PLATFORMS, INC.\nCONSOLIDATED STATEMENTS OF INCOME\n(In millions, except per share amounts)\n \nYear Ended December 31,\n2024\n2023\n2022\nRevenue\n$\n164,501 \n$\n134,902 \n$\n116,609 \nCosts and expenses:\n \n \nCost of revenue\n30,161 \n25,959 \n25,249 \nResearch and development\n43,873 \n38,483 \n35,338 \nMarketing and sales\n11,347 \n12,301 \n15,262 \nGeneral and administrative\n9,740 \n11,408 \n11,816",
+      "document": "META_ANNUAL_2024.pdf",
+      "page_number": 88,
+      "company": "META",
+      "year": "2024",
+      "confidence": "high"
+    },
+    "gross_profit": {
+      "value": null,
+      "raw_text": null,
+      "source_text": null,
+      "document": null,
+      "page_number": null,
+      "company": "META",
+      "year": "2024",
+      "confidence": "not_found"
+    },
+    "total_assets": {
+      "value": 276054.0,
+      "raw_text": "$\n276,054",
+      "source_text": "Table of Contents\nMETA PLATFORMS, INC.\nCONSOLIDATED BALANCE SHEETS\n(In millions, except number of shares and par value)\nDecember 31,\n \n2024\n2023\nAssets\n \n \nCurrent assets:\n \n \nCash and cash equivalents\n$\n43,889 \n$\n41,862 \nMarketable securities\n33,926 \n23,541 \nAccounts receivable, net\n16,994 \n16,169 \nPrepaid expenses and other current assets\n5,236 \n3,793 \nTotal current assets\n100,045 \n85,365 \nNon-m",
+      "document": "META_ANNUAL_2024.pdf",
+      "page_number": 87,
+      "company": "META",
+      "year": "2024",
+      "confidence": "high"
+    },
+    "total_liabilities": {
+      "value": 93417.0,
+      "raw_text": "93,417",
+      "source_text": "lders' equity\n \n \nCurrent liabilities:\n \n \nAccounts payable\n$\n7,687 \n$\n4,849 \nOperating lease liabilities, current\n1,942 \n1,623 \nAccrued expenses and other current liabilities\n23,967 \n25,488 \nTotal current liabilities\n33,596 \n31,960 \nOperating lease liabilities, non-current\n18,292 \n17,226 \nLong-term debt\n28,826 \n18,385 \nLong-term income taxes\n9,987 \n7,514 \nOther liabilities\n2,716 \n1,370 \nTotal lia",
+      "document": "META_ANNUAL_2024.pdf",
+      "page_number": 87,
+      "company": "META",
+      "year": "2024",
+      "confidence": "high"
+    },
+    "shareholders_equity": {
+      "value": 182637.0,
+      "raw_text": "182,637",
+      "source_text": "23, respectively; 4,141 million Class B shares\nauthorized, 344 million and 350 million shares issued and outstanding, as of December 31, 2024 and 2023,\nrespectively\n— \n— \nAdditional paid-in capital\n83,228 \n73,253 \nAccumulated other comprehensive loss\n(3,097)\n(2,155)\nRetained earnings\n102,506 \n82,070 \nTotal stockholders' equity\n182,637 \n153,168 \nTotal liabilities and stockholders' equity\n$\n276,054 ",
+      "document": "META_ANNUAL_2024.pdf",
+      "page_number": 87,
+      "company": "META",
+      "year": "2024",
+      "confidence": "high"
+    },
+    "operating_cash_flow": {
+      "value": 91328.0,
+      "raw_text": "91,328",
+      "source_text": "aid expenses and other current assets\n(698)\n559 \n162 \nOther assets\n(270)\n(80)\n(106)\nAccounts payable\n373 \n51 \n210 \nAccrued expenses and other current liabilities\n323 \n5,081 \n4,300 \nOther liabilities\n2,805 \n624 \n886 \nNet cash provided by operating activities\n91,328 \n71,113 \n50,475 \nCash flows from investing activities\nPurchases of property and equipment\n(37,256)\n(27,045)\n(31,186)\nPurchases of marke",
+      "document": "META_ANNUAL_2024.pdf",
+      "page_number": 91,
+      "company": "META",
+      "year": "2024",
+      "confidence": "high"
+    },
+    "eps": {
+      "value": 2534.0,
+      "raw_text": "2,534",
+      "source_text": "of restricted stock units (RSUs) with anti-dilutive effect were not material for the year ended December 31, 2024. For\nthe years ended December 31, 2023, and 2022, approximately 16 million and 95 million shares of RSUs were excluded from the diluted EPS calculation,\nrespectively, as including them would have an anti-dilutive effect.\nThe numerators and denominators of the basic and diluted EPS comp",
+      "document": "META_ANNUAL_2024.pdf",
+      "page_number": 103,
+      "company": "META",
+      "year": "2024",
+      "confidence": "high"
+    },
+    "revenue_trend": {
+      "value": "19%, 17%, and 16% between the",
+      "raw_text": "19%, 17%, and 16% between the",
+      "source_text": "quarters and a decline between the fourth and subsequent first quarters. For instance, our total revenue increased 19%, 17%, and 16% between the\nthird and fourth quarters of 2024, 2023, and 2022, respectively, while total revenue for the first quarters of 2024, 2023, and 2022 declined 9%, 11%, and 17%\ncompared to the fourth quarters of 2023, 2022, and 2021, respectively.\n72",
+      "document": "META_ANNUAL_2024.pdf",
+      "page_number": 73,
+      "company": "META",
+      "year": "2024",
+      "confidence": "low"
+    }
+  },
+  "ratios": {
+    "net_profit_margin": {
+      "value": 0.3791,
+      "percentage": "37.91%",
+      "formula": "Net Income / Revenue",
+      "inputs_used": {
+        "net_income": 62360.0,
+        "revenue": 164501.0
+      }
+    },
+    "debt_to_equity": {
+      "value": 0.5115,
+      "formula": "Total Liabilities / Shareholders Equity",
+      "inputs_used": {
+        "total_liabilities": 93417.0,
+        "equity": 182637.0
+      }
+    },
+    "return_on_assets": {
+      "value": 0.2259,
+      "percentage": "22.59%",
+      "formula": "Net Income / Total Assets",
+      "inputs_used": {
+        "net_income": 62360.0,
+        "total_assets": 276054.0
+      }
+    },
+    "equity_ratio": {
+      "value": 0.6616,
+      "percentage": "66.16%",
+      "formula": "Shareholders Equity / Total Assets",
+      "inputs_used": {
+        "equity": 182637.0,
+        "total_assets": 276054.0
+      }
+    }
+  }
+}

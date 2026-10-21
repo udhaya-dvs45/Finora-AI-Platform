@@ -1,0 +1,110 @@
+{
+  "query": "What are the main risk factors and revenue trends for Amazon in 2023?",
+  "timestamp": "2026-10-12T15:52:51.136289",
+  "query_analysis": {
+    "original_query": "What are the main risk factors and revenue trends for Amazon in 2023?",
+    "companies": [
+      "AMAZON"
+    ],
+    "years": [
+      "2023"
+    ],
+    "sub_queries": [
+      "What are the main risk factors and revenue trends for Amazon in 2023?"
+    ]
+  },
+  "reasoning_steps": [
+    "Step 1: Investigating sub-query 'What are the main risk factors and revenue trends for Amazon in 2023?'...",
+    "Step 2: Retrieved 6 chunks, prioritized top 6 grounded segments across 6 unique document sections."
+  ],
+  "answer": "### Research Findings for: \"What are the main risk factors and revenue trends for Amazon in 2023?\"\n\nBased on verified disclosures indexed in the financial knowledge base:\n\n1. **AMAZON (2023)**: Guidance We provided guidance on February 1, 2024, in our earnings release furnished on Form 8-K as set forth below. These  forward-looking statements reflect Amazon. [Source: AMAZON_ANNUAL_2023.pdf, Page 43]\n\n2. **AMAZON (2023)**: Dear Shareholders: Last year at this time, I shared my enthusiasm and optimism for Amazon’s future. Today, I have even more. [Source: AMAZON_ANNUAL_2023.pdf, Page 2]\n\n3. **AMAZON (2023)**: eve that other products may be prudent investments. We also believe there are significant opportunities to better serve our customers overseas, such as reducing delivery times and better tailoring the customer experience. [Source: AMAZON_ANNUAL_2023.pdf, Page 12]\n\n4. **AMAZON (2023)**: Business This Annual Report on Form 10-K and the documents incorporated herein by reference contain forward-looking  statements based on expectations, estimates, and projections as of the date of this filing. Actual results and outcomes may differ  materially from those expressed in forward-looking statements. [Source: AMAZON_ANNUAL_2023.pdf, Page 15]\n\n5. **AMAZON (2023)**: CONSOLIDATED STATEMENTS OF OPERATIONS (in millions, except per share data)    Year Ended December 31,   2021 2022 2023 Net product sales $  241,787 $  242,901 $  255,887  Net service sales   228,035   271,082   318,898  Total net sales   469,822   513,983   574,785  Operating expenses: Cost of sales   272,344   288,831   304,739  Fulfillment   75,111   84,299   90,619  Technology and infrastructure   56,052   73,213   85,622  Sales and marketing   32,551   42,238   44,370  General and administrative   8,823   11,891   11,816  Other operating expense (income), net   62   1,263   767  Total operating expenses   444,943   501,735   537,933  Operating income   24,879   12,248   36,852  Interest income   448   989   2,949  Interest expense   (1,809)   (2,367)   (3,182)  Other i. [Source: AMAZON_ANNUAL_2023.pdf, Page 50]\n\n#### Source Citations\n- **[Source: AMAZON_ANNUAL_2023.pdf, Page 43]**: \"Guidance\nWe provided guidance on February 1, 2024, in our earnings release furnished on Form 8-K as set forth below. These \nforward-looking statements reflect Amazon.com’s expectations as of February 1, 2024, and are subject to substantial \nuncertainty. Our results are inherently...\"\n- **[Source: AMAZON_ANNUAL_2023.pdf, Page 2]**: \"Dear Shareholders:\nLast year at this time, I shared my enthusiasm and optimism for Amazon’s future. Today, I have even more.\nThe reasons are many, but start with the progress we’ve made in our financial results and customer\nexperiences, and extend to our continued innovation and ...\"\n- **[Source: AMAZON_ANNUAL_2023.pdf, Page 12]**: \"eve that other products may be prudent investments. We also believe there are significant opportunities to\nbetter serve our customers overseas, such as reducing delivery times and better tailoring the customer experience.\nTo be certain, a big part of the challenge for us will lie...\"\n- **[Source: AMAZON_ANNUAL_2023.pdf, Page 15]**: \"AMAZON.COM, INC.\nPART I\nItem 1.\nBusiness\nThis Annual Report on Form 10-K and the documents incorporated herein by reference contain forward-looking \nstatements based on expectations, estimates, and projections as of the date of this filing. Actual results and outcomes may differ ...\"\n- **[Source: AMAZON_ANNUAL_2023.pdf, Page 50]**: \"AMAZON.COM, INC.\nCONSOLIDATED STATEMENTS OF OPERATIONS\n(in millions, except per share data)\n  \nYear Ended December 31,\n \n2021\n2022\n2023\nNet product sales\n$ \n241,787 $ \n242,901 $ \n255,887 \nNet service sales\n \n228,035  \n271,082  \n318,898 \nTotal net sales\n \n469,822  \n513,983  \n574,7...\"\n- **[Source: AMAZON_ANNUAL_2023.pdf, Page 49]**: \"AMAZON.COM, INC.\nCONSOLIDATED STATEMENTS OF CASH FLOWS\n(in millions)\n  \nYear Ended December 31,\n \n2021\n2022\n2023\nCASH, CASH EQUIVALENTS, AND RESTRICTED CASH, BEGINNING OF \nPERIOD\n$ \n42,377 \n$ \n36,477 \n$ \n54,253 \nOPERATING ACTIVITIES:\nNet income (loss)\n \n33,364 \n \n(2,722)  \n30,425...\"",
+  "citations": [
+    {
+      "citation_tag": "[Source: AMAZON_ANNUAL_2023.pdf, Page 43]",
+      "document": "AMAZON_ANNUAL_2023.pdf",
+      "page_number": 43,
+      "company": "AMAZON",
+      "year": "2023",
+      "similarity": 0.7087,
+      "excerpt": "Guidance\nWe provided guidance on February 1, 2024, in our earnings release furnished on Form 8-K as set forth below. These \nforward-looking statements reflect Amazon.com’s expectations as of February 1, 2024, and are subject to substantial \nuncertainty. Our results are inherently..."
+    },
+    {
+      "citation_tag": "[Source: AMAZON_ANNUAL_2023.pdf, Page 2]",
+      "document": "AMAZON_ANNUAL_2023.pdf",
+      "page_number": 2,
+      "company": "AMAZON",
+      "year": "2023",
+      "similarity": 0.6916,
+      "excerpt": "Dear Shareholders:\nLast year at this time, I shared my enthusiasm and optimism for Amazon’s future. Today, I have even more.\nThe reasons are many, but start with the progress we’ve made in our financial results and customer\nexperiences, and extend to our continued innovation and ..."
+    },
+    {
+      "citation_tag": "[Source: AMAZON_ANNUAL_2023.pdf, Page 12]",
+      "document": "AMAZON_ANNUAL_2023.pdf",
+      "page_number": 12,
+      "company": "AMAZON",
+      "year": "2023",
+      "similarity": 0.6539,
+      "excerpt": "eve that other products may be prudent investments. We also believe there are significant opportunities to\nbetter serve our customers overseas, such as reducing delivery times and better tailoring the customer experience.\nTo be certain, a big part of the challenge for us will lie..."
+    },
+    {
+      "citation_tag": "[Source: AMAZON_ANNUAL_2023.pdf, Page 15]",
+      "document": "AMAZON_ANNUAL_2023.pdf",
+      "page_number": 15,
+      "company": "AMAZON",
+      "year": "2023",
+      "similarity": 0.604,
+      "excerpt": "AMAZON.COM, INC.\nPART I\nItem 1.\nBusiness\nThis Annual Report on Form 10-K and the documents incorporated herein by reference contain forward-looking \nstatements based on expectations, estimates, and projections as of the date of this filing. Actual results and outcomes may differ ..."
+    },
+    {
+      "citation_tag": "[Source: AMAZON_ANNUAL_2023.pdf, Page 50]",
+      "document": "AMAZON_ANNUAL_2023.pdf",
+      "page_number": 50,
+      "company": "AMAZON",
+      "year": "2023",
+      "similarity": 0.599,
+      "excerpt": "AMAZON.COM, INC.\nCONSOLIDATED STATEMENTS OF OPERATIONS\n(in millions, except per share data)\n  \nYear Ended December 31,\n \n2021\n2022\n2023\nNet product sales\n$ \n241,787 $ \n242,901 $ \n255,887 \nNet service sales\n \n228,035  \n271,082  \n318,898 \nTotal net sales\n \n469,822  \n513,983  \n574,7..."
+    },
+    {
+      "citation_tag": "[Source: AMAZON_ANNUAL_2023.pdf, Page 49]",
+      "document": "AMAZON_ANNUAL_2023.pdf",
+      "page_number": 49,
+      "company": "AMAZON",
+      "year": "2023",
+      "similarity": 0.5927,
+      "excerpt": "AMAZON.COM, INC.\nCONSOLIDATED STATEMENTS OF CASH FLOWS\n(in millions)\n  \nYear Ended December 31,\n \n2021\n2022\n2023\nCASH, CASH EQUIVALENTS, AND RESTRICTED CASH, BEGINNING OF \nPERIOD\n$ \n42,377 \n$ \n36,477 \n$ \n54,253 \nOPERATING ACTIVITIES:\nNet income (loss)\n \n33,364 \n \n(2,722)  \n30,425..."
+    }
+  ],
+  "top_findings": [
+    {
+      "company": "AMAZON",
+      "year": "2023",
+      "finding": "Guidance We provided guidance on February 1, 2024, in our earnings release furnished on Form 8-K as set forth below. These  forward-looking statements reflect Amazon",
+      "citation": "[Source: AMAZON_ANNUAL_2023.pdf, Page 43]"
+    },
+    {
+      "company": "AMAZON",
+      "year": "2023",
+      "finding": "Dear Shareholders: Last year at this time, I shared my enthusiasm and optimism for Amazon’s future. Today, I have even more",
+      "citation": "[Source: AMAZON_ANNUAL_2023.pdf, Page 2]"
+    },
+    {
+      "company": "AMAZON",
+      "year": "2023",
+      "finding": "eve that other products may be prudent investments. We also believe there are significant opportunities to better serve our customers overseas, such as reducing delivery times and better tailoring the customer experience",
+      "citation": "[Source: AMAZON_ANNUAL_2023.pdf, Page 12]"
+    },
+    {
+      "company": "AMAZON",
+      "year": "2023",
+      "finding": "Business This Annual Report on Form 10-K and the documents incorporated herein by reference contain forward-looking  statements based on expectations, estimates, and projections as of the date of this filing. Actual results and outcomes may differ  materially from those expressed in forward-looking statements",
+      "citation": "[Source: AMAZON_ANNUAL_2023.pdf, Page 15]"
+    },
+    {
+      "company": "AMAZON",
+      "year": "2023",
+      "finding": "CONSOLIDATED STATEMENTS OF OPERATIONS (in millions, except per share data)    Year Ended December 31,   2021 2022 2023 Net product sales $  241,787 $  242,901 $  255,887  Net service sales   228,035   271,082   318,898  Total net sales   469,822   513,983   574,785  Operating expenses: Cost of sales   272,344   288,831   304,739  Fulfillment   75,111   84,299   90,619  Technology and infrastructure   56,052   73,213   85,622  Sales and marketing   32,551   42,238   44,370  General and administrative   8,823   11,891   11,816  Other operating expense (income), net   62   1,263   767  Total operating expenses   444,943   501,735   537,933  Operating income   24,879   12,248   36,852  Interest income   448   989   2,949  Interest expense   (1,809)   (2,367)   (3,182)  Other i",
+      "citation": "[Source: AMAZON_ANNUAL_2023.pdf, Page 50]"
+    }
+  ],
+  "total_evidence_count": 6
+}

@@ -1,0 +1,121 @@
+{
+  "doc_id": "APPLE_2025",
+  "company": "APPLE",
+  "year": "2025",
+  "generated_at": "2026-10-13T07:44:00.776253",
+  "generation_time_seconds": 0,
+  "executive_summary": {
+    "revenue": "416,161.00",
+    "net_income": "112,010.00",
+    "operating_income": "133,050.00",
+    "total_assets": "359,241.00",
+    "shareholders_equity": "73,733.00",
+    "overall_risk": "HIGH",
+    "total_flags": 8,
+    "risk_score": 100
+  },
+  "key_financials": {
+    "net_margin": "26.92%",
+    "op_margin": "N/A",
+    "gross_margin": "N/A",
+    "debt_to_equity": "3.87",
+    "roa": "31.18%",
+    "roe": "N/A",
+    "current_ratio": "N/A",
+    "eps": "N/A",
+    "ebitda": "N/A",
+    "fcf": "N/A"
+  },
+  "red_flags": {
+    "overall_risk_level": "HIGH",
+    "risk_score_out_of_100": 100,
+    "total_flags": 8,
+    "high": 1,
+    "medium": 7,
+    "low": 0,
+    "top_flags": [
+      {
+        "title": "Severe Financial Leverage",
+        "severity": "HIGH",
+        "category": "Solvency & Capital Structure",
+        "description": "Debt-to-Equity ratio is 3.87, indicating heavily leveraged capital structure.",
+        "citation": {
+          "document": "N/A",
+          "page": "N/A"
+        }
+      },
+      {
+        "title": "Disclosure: Investigation Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of investigation, antitrust, lawsuit found in annual filing.",
+        "citation": {
+          "document": "APPLE_ANNUAL_2025.pdf",
+          "page": 21
+        }
+      },
+      {
+        "title": "Disclosure: Antitrust Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of antitrust, litigation found in annual filing.",
+        "citation": {
+          "document": "APPLE_ANNUAL_2025.pdf",
+          "page": 17
+        }
+      },
+      {
+        "title": "Disclosure: Litigation Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of litigation found in annual filing.",
+        "citation": {
+          "document": "APPLE_ANNUAL_2025.pdf",
+          "page": 16
+        }
+      },
+      {
+        "title": "Disclosure: Litigation Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of litigation found in annual filing.",
+        "citation": {
+          "document": "APPLE_ANNUAL_2025.pdf",
+          "page": 49
+        }
+      },
+      {
+        "title": "Disclosure: Litigation Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of litigation found in annual filing.",
+        "citation": {
+          "document": "APPLE_ANNUAL_2025.pdf",
+          "page": 15
+        }
+      },
+      {
+        "title": "Disclosure: Default Detected",
+        "severity": "MEDIUM",
+        "category": "Impairments & Solvency Risks",
+        "description": "Disclosed mentions of default found in annual filing.",
+        "citation": {
+          "document": "APPLE_ANNUAL_2025.pdf",
+          "page": 73
+        }
+      },
+      {
+        "title": "Disclosure: Default Detected",
+        "severity": "MEDIUM",
+        "category": "Impairments & Solvency Risks",
+        "description": "Disclosed mentions of default found in annual filing.",
+        "citation": {
+          "document": "APPLE_ANNUAL_2025.pdf",
+          "page": 74
+        }
+      }
+    ]
+  },
+  "comparison": {},
+  "markdown_report": "# 📑 Financial Analysis Report: APPLE (2025)\n**Generated:** 2026-10-13 07:44:00  |  **Overall Risk Level:** `HIGH` (100/100)\n\n---\n\n## 1. Executive Summary\nAPPLE reported total revenue/sales of **416,161.00** for fiscal year 2025.\nOperating income reached **133,050.00**, reflecting an operating margin of **N/A**.\nThe company closed the year with a net income of **112,010.00** (net profit margin: **26.92%**).\nTotal assets stood at **359,241.00** and shareholders' equity at **73,733.00**.\nThe automated risk scanner assigned an overall risk level of **HIGH** based on 8 detected flag(s).\n\n## 2. Key Financial Highlights & Ratios\n| Metric | Reported Value | Assessment |\n| --- | --- | --- |\n| Total Revenue | 416,161.00 | Core top-line performance |\n| Gross Profit | N/A | Revenue minus COGS |\n| Operating Income (EBIT) | 133,050.00 | Primary operating profitability |\n| Net Income | 112,010.00 | Bottom-line earnings |\n| EBITDA | N/A | Earnings before interest, taxes, depreciation |\n| Free Cash Flow | N/A | Operating cash flow minus CapEx |\n| Total Assets | 359,241.00 | Total balance sheet scale |\n| Shareholders' Equity | 73,733.00 | Net asset backing |\n| Total Debt | N/A | Outstanding debt obligations |\n| Cash & Equivalents | N/A | Liquid reserves |\n| Diluted EPS | N/A | Earnings per share |\n\n### Ratio Analysis\n| Ratio | Value | Benchmark |\n| --- | --- | --- |\n| Gross Margin | N/A | Pricing power & cost efficiency |\n| Operating Margin | N/A | Operational leverage |\n| Net Profit Margin | 26.92% | Profitability conversion |\n| Debt-to-Equity | 3.87 | Capital structure leverage |\n| Return on Assets (ROA) | 31.18% | Asset utilization efficiency |\n| Return on Equity (ROE) | N/A | Shareholder value creation |\n| Current Ratio | N/A | Short-term liquidity |\n\n## 3. Red Flag & Audit Risk Assessment\nThe automated audit scanner detected **8 flag(s)** — HIGH: 1, MEDIUM: 7, LOW: 0.\nOverall Risk Score: **100/100** (Level: **HIGH**).\n\n### Key Detected Disclosures & Anomalies:\n1. **[HIGH] Severe Financial Leverage** (Solvency & Capital Structure)\n   - *Finding:* Debt-to-Equity ratio is 3.87, indicating heavily leveraged capital structure.\n   - *Evidence:* \"Debt/Equity ratio: 3.87\"\n   - *Citation:* `N/A`, Page N/A\n\n2. **[MEDIUM] Disclosure: Investigation Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of investigation, antitrust, lawsuit found in annual filing.\n   - *Evidence:* \"Investigation that there has been a violation, it can issue a cease and desist order and may impose fines up to 10% of the \nCompany’s annual worldwide net sales. The Commission may also seek to impose\"\n   - *Citation:* `APPLE_ANNUAL_2025.pdf`, Page 21\n\n3. **[MEDIUM] Disclosure: Antitrust Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of antitrust, litigation found in annual filing.\n   - *Evidence:* \"the Company’s business, results of operations, financial condition and stock price. For example, the Company is \nsubject to civil antitrust lawsuits in the U.S. alleging monopolization or attempted mo\"\n   - *Citation:* `APPLE_ANNUAL_2025.pdf`, Page 17\n\n4. **[MEDIUM] Disclosure: Litigation Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of litigation found in annual filing.\n   - *Evidence:* \"The outcome of litigation or government investigations is inherently uncertain. If one or more legal matters were resolved against \nthe Company or an indemnified third party in a reporting period for \"\n   - *Citation:* `APPLE_ANNUAL_2025.pdf`, Page 16\n\n5. **[MEDIUM] Disclosure: Litigation Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of litigation found in annual filing.\n   - *Evidence:* \"Thereafter\n \n773 \nTotal\n$ \n13,308 \nContingencies\nThe Company is subject to various legal proceedings and claims that have arisen in the ordinary course of business and that \nhave not been fully resolv\"\n   - *Citation:* `APPLE_ANNUAL_2025.pdf`, Page 49\n\n6. **[MEDIUM] Disclosure: Litigation Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of litigation found in annual filing.\n   - *Evidence:* \"iffs \nin these actions frequently seek broad injunctive relief and substantial damages.\nRegardless of the merit of particular claims, defending against litigation or responding to government investiga\"\n   - *Citation:* `APPLE_ANNUAL_2025.pdf`, Page 15\n\n7. **[MEDIUM] Disclosure: Default Detected** (Impairments & Solvency Risks)\n   - *Finding:* Disclosed mentions of default found in annual filing.\n   - *Evidence:* \"h action does not adversely affect the rights or \ninterests of any holder of debt securities in any material respect.\nThe holders of at least a majority in aggregate principal amount of the outstandin\"\n   - *Citation:* `APPLE_ANNUAL_2025.pdf`, Page 73\n\n8. **[MEDIUM] Disclosure: Default Detected** (Impairments & Solvency Risks)\n   - *Finding:* Disclosed mentions of default found in annual filing.\n   - *Evidence:* \"easance”) or (2) to be released \nfrom our obligations to comply with the restrictive covenants under the applicable Indenture, and any omission to \ncomply with such obligations will not constitute a d\"\n   - *Citation:* `APPLE_ANNUAL_2025.pdf`, Page 74\n\n## 4. Company Comparison & Benchmarking\n_No comparison data available for this report. Use the Compare command to add peer benchmarks._\n\n## 5. Strategic Outlook & Recommendation\n⚠️ **Caution Advised:** APPLE displays multiple high-severity risk signals or regulatory disclosures requiring thorough review before credit or capital allocation.\nElevated risk factors suggest a defensive positioning strategy with active monitoring of material developments.\n\n---\n*Report compiled by FinResearch AI Multi-Agent System — October 13, 2026*"
+}

@@ -1,0 +1,70 @@
+{
+  "comparison_id": "AMAZON_2023_vs_AMAZON_2024",
+  "compared_at": "2026-10-12T18:28:23.190380",
+  "entities": [
+    "AMAZON_2023",
+    "AMAZON_2024"
+  ],
+  "markdown_table": "| Metric | AMAZON_2023 | AMAZON_2024 |\n| --- | --- | --- |\n| Revenue / Net Sales | 469,822.0 | 513,983.0 |\n| Operating Income | 24,879.0 | 12,248.0 |\n| Net Income | , | , |\n| Operating Cash Flow | N/A | N/A |\n| Total Assets | 462,675.0 | 527,854.0 |\n| Shareholders' Equity | 146,043.0 | 201,875.0 |\n| Operating Margin (%) | N/A | N/A |\n| Net Profit Margin (%) | N/A | N/A |\n| Debt-to-Equity Ratio | N/A | N/A |\n| Return on Assets (%) | N/A | N/A |\n| Overall Risk Profile | HIGH (6 flags) | HIGH (8 flags) |",
+  "table_data": [
+    {
+      "metric": "Revenue / Net Sales",
+      "AMAZON_2023": "469,822.0",
+      "AMAZON_2024": "513,983.0"
+    },
+    {
+      "metric": "Operating Income",
+      "AMAZON_2023": "24,879.0",
+      "AMAZON_2024": "12,248.0"
+    },
+    {
+      "metric": "Net Income",
+      "AMAZON_2023": ",",
+      "AMAZON_2024": ","
+    },
+    {
+      "metric": "Operating Cash Flow",
+      "AMAZON_2023": "N/A",
+      "AMAZON_2024": "N/A"
+    },
+    {
+      "metric": "Total Assets",
+      "AMAZON_2023": "462,675.0",
+      "AMAZON_2024": "527,854.0"
+    },
+    {
+      "metric": "Shareholders' Equity",
+      "AMAZON_2023": "146,043.0",
+      "AMAZON_2024": "201,875.0"
+    },
+    {
+      "metric": "Operating Margin (%)",
+      "AMAZON_2023": "N/A",
+      "AMAZON_2024": "N/A"
+    },
+    {
+      "metric": "Net Profit Margin (%)",
+      "AMAZON_2023": "N/A",
+      "AMAZON_2024": "N/A"
+    },
+    {
+      "metric": "Debt-to-Equity Ratio",
+      "AMAZON_2023": "N/A",
+      "AMAZON_2024": "N/A"
+    },
+    {
+      "metric": "Return on Assets (%)",
+      "AMAZON_2023": "N/A",
+      "AMAZON_2024": "N/A"
+    },
+    {
+      "metric": "Overall Risk Profile",
+      "AMAZON_2023": "HIGH (6 flags)",
+      "AMAZON_2024": "HIGH (8 flags)"
+    }
+  ],
+  "insights": [
+    "**Scale Leadership**: AMAZON_2024 leads in total revenue at 513,983.0, which is 9.4% higher than AMAZON_2023 (469,822.0).",
+    "**Risk Benchmarking**: AMAZON_2023 is rated HIGH risk (6 flags); AMAZON_2024 is rated HIGH risk (8 flags)."
+  ]
+}

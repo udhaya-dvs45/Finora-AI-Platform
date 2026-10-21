@@ -1,0 +1,106 @@
+{
+  "doc_id": "AMAZON_2023",
+  "company": "AMAZON",
+  "year": "2023",
+  "generated_at": "2026-10-13T08:15:07.922667",
+  "generation_time_seconds": 0,
+  "executive_summary": {
+    "revenue": "469,822.00",
+    "net_income": ",",
+    "operating_income": "24,879.00",
+    "total_assets": "462,675.00",
+    "shareholders_equity": "146,043.00",
+    "overall_risk": "HIGH",
+    "total_flags": 6,
+    "risk_score": 100
+  },
+  "key_financials": {
+    "net_margin": "N/A",
+    "op_margin": "N/A",
+    "gross_margin": "N/A",
+    "debt_to_equity": "N/A",
+    "roa": "N/A",
+    "roe": "N/A",
+    "current_ratio": "N/A",
+    "eps": "N/A",
+    "ebitda": "N/A",
+    "fcf": "N/A"
+  },
+  "red_flags": {
+    "overall_risk_level": "HIGH",
+    "risk_score_out_of_100": 100,
+    "total_flags": 6,
+    "high": 1,
+    "medium": 5,
+    "low": 0,
+    "top_flags": [
+      {
+        "title": "Disclosure: Material Weakness Detected",
+        "severity": "HIGH",
+        "category": "Auditor & Internal Controls",
+        "description": "Disclosed mentions of material weakness found in annual filing.",
+        "citation": {
+          "document": "AMAZON_ANNUAL_2023.pdf",
+          "page": 84
+        }
+      },
+      {
+        "title": "Disclosure: Antitrust Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of antitrust found in annual filing.",
+        "citation": {
+          "document": "AMAZON_ANNUAL_2023.pdf",
+          "page": 27
+        }
+      },
+      {
+        "title": "Disclosure: Litigation Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of litigation found in annual filing.",
+        "citation": {
+          "document": "AMAZON_ANNUAL_2023.pdf",
+          "page": 74
+        }
+      },
+      {
+        "title": "Disclosure: Investigation Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of investigation found in annual filing.",
+        "citation": {
+          "document": "AMAZON_ANNUAL_2023.pdf",
+          "page": 28
+        }
+      },
+      {
+        "title": "Disclosure: Impairment Detected",
+        "severity": "MEDIUM",
+        "category": "Impairments & Solvency Risks",
+        "description": "Disclosed mentions of impairment found in annual filing.",
+        "citation": {
+          "document": "AMAZON_ANNUAL_2023.pdf",
+          "page": 61
+        }
+      },
+      {
+        "title": "Disclosure: Impairment Detected",
+        "severity": "MEDIUM",
+        "category": "Impairments & Solvency Risks",
+        "description": "Disclosed mentions of impairment found in annual filing.",
+        "citation": {
+          "document": "AMAZON_ANNUAL_2023.pdf",
+          "page": 62
+        }
+      }
+    ]
+  },
+  "comparison": {},
+  "markdown_report": "# 📑 Financial Analysis Report: AMAZON (2023)\n**Generated:** 2026-10-13 08:15:07  |  **Overall Risk Level:** `HIGH` (100/100)\n\n---\n\n## 1. Executive Summary\nAMAZON reported total revenue/sales of **469,822.00** for fiscal year 2023.\nOperating income reached **24,879.00**, reflecting an operating margin of **N/A**.\nThe company closed the year with a net income of **,** (net profit margin: **N/A**).\nTotal assets stood at **462,675.00** and shareholders' equity at **146,043.00**.\nThe automated risk scanner assigned an overall risk level of **HIGH** based on 6 detected flag(s).\n\n## 2. Key Financial Highlights & Ratios\n| Metric | Reported Value | Assessment |\n| --- | --- | --- |\n| Total Revenue | 469,822.00 | Core top-line performance |\n| Gross Profit | N/A | Revenue minus COGS |\n| Operating Income (EBIT) | 24,879.00 | Primary operating profitability |\n| Net Income | , | Bottom-line earnings |\n| EBITDA | N/A | Earnings before interest, taxes, depreciation |\n| Free Cash Flow | N/A | Operating cash flow minus CapEx |\n| Total Assets | 462,675.00 | Total balance sheet scale |\n| Shareholders' Equity | 146,043.00 | Net asset backing |\n| Total Debt | N/A | Outstanding debt obligations |\n| Cash & Equivalents | N/A | Liquid reserves |\n| Diluted EPS | N/A | Earnings per share |\n\n### Ratio Analysis\n| Ratio | Value | Benchmark |\n| --- | --- | --- |\n| Gross Margin | N/A | Pricing power & cost efficiency |\n| Operating Margin | N/A | Operational leverage |\n| Net Profit Margin | N/A | Profitability conversion |\n| Debt-to-Equity | N/A | Capital structure leverage |\n| Return on Assets (ROA) | N/A | Asset utilization efficiency |\n| Return on Equity (ROE) | N/A | Shareholder value creation |\n| Current Ratio | N/A | Short-term liquidity |\n\n## 3. Red Flag & Audit Risk Assessment\nThe automated audit scanner detected **6 flag(s)** — HIGH: 1, MEDIUM: 5, LOW: 0.\nOverall Risk Score: **100/100** (Level: **HIGH**).\n\n### Key Detected Disclosures & Anomalies:\n1. **[HIGH] Disclosure: Material Weakness Detected** (Auditor & Internal Controls)\n   - *Finding:* Disclosed mentions of material weakness found in annual filing.\n   - *Evidence:* \"equire that we plan and \nperform the audit to obtain reasonable assurance about whether effective internal control over financial reporting was \nmaintained in all material respects. \nOur audit include\"\n   - *Citation:* `AMAZON_ANNUAL_2023.pdf`, Page 84\n\n2. **[MEDIUM] Disclosure: Antitrust Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of antitrust found in annual filing.\n   - *Evidence:* \", competition and antitrust, \nprivacy, data use, data protection, data security, data localization, network security, consumer protection, commercial disputes, \ngoods and services offered by us and by\"\n   - *Citation:* `AMAZON_ANNUAL_2023.pdf`, Page 27\n\n3. **[MEDIUM] Disclosure: Litigation Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of litigation found in annual filing.\n   - *Evidence:* \"l \nTrade Commission. The complaints allege, among other things, that certain Amazon Prime Video services and features of \nAmazon devices carrying the Prime Video app infringe Nokia’s patents; some of \"\n   - *Citation:* `AMAZON_ANNUAL_2023.pdf`, Page 74\n\n4. **[MEDIUM] Disclosure: Investigation Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of investigation found in annual filing.\n   - *Evidence:* \"tions that can result in tax assessments against us. \nDevelopments in an audit, investigation, or other tax controversy can have a material effect on our operating results or cash \nflows in the period\"\n   - *Citation:* `AMAZON_ANNUAL_2023.pdf`, Page 28\n\n5. **[MEDIUM] Disclosure: Impairment Detected** (Impairments & Solvency Risks)\n   - *Finding:* Disclosed mentions of impairment found in annual filing.\n   - *Evidence:* \"etermined to be less than the carrying value, \nwe recognize an impairment loss for the difference. We estimate the fair value of the reporting units using discounted cash \nflows. Forecasts of future c\"\n   - *Citation:* `AMAZON_ANNUAL_2023.pdf`, Page 61\n\n6. **[MEDIUM] Disclosure: Impairment Detected** (Impairments & Solvency Risks)\n   - *Finding:* Disclosed mentions of impairment found in annual filing.\n   - *Evidence:* \"rary \nand if so, we write down the investment to its estimated fair value. \nEquity investments that have readily determinable fair values, including investments for which we have elected the fair \nval\"\n   - *Citation:* `AMAZON_ANNUAL_2023.pdf`, Page 62\n\n## 4. Company Comparison & Benchmarking\n_No comparison data available for this report. Use the Compare command to add peer benchmarks._\n\n## 5. Strategic Outlook & Recommendation\n⚠️ **Caution Advised:** AMAZON displays multiple high-severity risk signals or regulatory disclosures requiring thorough review before credit or capital allocation.\nElevated risk factors suggest a defensive positioning strategy with active monitoring of material developments.\n\n---\n*Report compiled by FinResearch AI Multi-Agent System — October 13, 2026*",
+  "recommendation": "CAUTION / MONITOR",
+  "overall_risk_level": "HIGH",
+  "json_path": "C:\\Users\\Udhaya kiran\\OneDrive\\Desktop\\INFOSYS_INTERN\\outputs\\reports\\AMAZON_2023_report.json",
+  "markdown_path": "C:\\Users\\Udhaya kiran\\OneDrive\\Desktop\\INFOSYS_INTERN\\outputs\\reports\\AMAZON_2023_report.md",
+  "pdf_path": "C:\\Users\\Udhaya kiran\\OneDrive\\Desktop\\INFOSYS_INTERN\\outputs\\reports\\AMAZON_2023_report.pdf"
+}

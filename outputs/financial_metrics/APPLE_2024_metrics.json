@@ -1,0 +1,145 @@
+{
+  "doc_id": "APPLE_2024",
+  "company": "APPLE",
+  "year": "2024",
+  "extracted_at": "2026-10-12T16:02:35.696029",
+  "metrics": {
+    "revenue": {
+      "value": 167045.0,
+      "raw_text": "$ \n167,045",
+      "source_text": "The following table shows information by reportable segment for 2024, 2023 and 2022 (in millions):\n2024\n2023\n2022\nAmericas:\nNet sales\n$ \n167,045 \n$ \n162,560 \n$ \n169,658 \nOperating income\n$ \n67,656 \n$ \n60,508 \n$ \n62,683 \nEurope:\nNet sales\n$ \n101,328 \n$ \n94,294 \n$ \n95,118 \nOperating income\n$ \n41,790 \n$ \n36,098 \n$ \n35,233 \nGreater China:\nNet sales\n$ \n66,952 \n$ \n72,559 \n$ \n74,200 \nOperating income\n$ \n",
+      "document": "APPLE_ANNUAL_2024.pdf",
+      "page_number": 50,
+      "company": "APPLE",
+      "year": "2024",
+      "confidence": "high"
+    },
+    "net_income": {
+      "value": 93736.0,
+      "raw_text": "$ \n93,736",
+      "source_text": "s.\nNote 3 – Earnings Per Share\nThe following table shows the computation of basic and diluted earnings per share for 2024, 2023 and 2022 (net income in \nmillions and shares in thousands):\n2024\n2023\n2022\nNumerator:\nNet income\n$ \n93,736 \n$ \n96,995 \n$ \n99,803 \nDenominator:\nWeighted-average basic shares outstanding\n \n15,343,783 \n \n15,744,231 \n \n16,215,963 \nEffect of dilutive share-based awards\n \n64,31",
+      "document": "APPLE_ANNUAL_2024.pdf",
+      "page_number": 39,
+      "company": "APPLE",
+      "year": "2024",
+      "confidence": "high"
+    },
+    "operating_income": {
+      "value": 67656.0,
+      "raw_text": "$ \n67,656",
+      "source_text": "The following table shows information by reportable segment for 2024, 2023 and 2022 (in millions):\n2024\n2023\n2022\nAmericas:\nNet sales\n$ \n167,045 \n$ \n162,560 \n$ \n169,658 \nOperating income\n$ \n67,656 \n$ \n60,508 \n$ \n62,683 \nEurope:\nNet sales\n$ \n101,328 \n$ \n94,294 \n$ \n95,118 \nOperating income\n$ \n41,790 \n$ \n36,098 \n$ \n35,233 \nGreater China:\nNet sales\n$ \n66,952 \n$ \n72,559 \n$ \n74,200 \nOperating income\n$ \n",
+      "document": "APPLE_ANNUAL_2024.pdf",
+      "page_number": 50,
+      "company": "APPLE",
+      "year": "2024",
+      "confidence": "high"
+    },
+    "gross_profit": {
+      "value": null,
+      "raw_text": null,
+      "source_text": null,
+      "document": null,
+      "page_number": null,
+      "company": "APPLE",
+      "year": "2024",
+      "confidence": "not_found"
+    },
+    "total_assets": {
+      "value": 364980.0,
+      "raw_text": "$ \n364,980",
+      "source_text": "Apple Inc.\nCONSOLIDATED BALANCE SHEETS\n(In millions, except number of shares, which are reflected in thousands, and par value)\nSeptember 28,\n2024\nSeptember 30,\n2023\nASSETS:\nCurrent assets:\nCash and cash equivalents\n$ \n29,943 \n$ \n29,965 \nMarketable securities\n \n35,228 \n \n31,590 \nAccounts receivable, net\n \n33,410 \n \n29,508 \nVendor non-trade receivables\n \n32,833 \n \n31,477 \nInventories\n \n7,286 \n \n6,33",
+      "document": "APPLE_ANNUAL_2024.pdf",
+      "page_number": 34,
+      "company": "APPLE",
+      "year": "2024",
+      "confidence": "high"
+    },
+    "total_liabilities": {
+      "value": 308030.0,
+      "raw_text": "308,030",
+      "source_text": "Total non-current assets\n \n211,993 \n \n209,017 \nTotal assets\n$ \n364,980 \n$ \n352,583 \nLIABILITIES AND SHAREHOLDERS’ EQUITY:\nCurrent liabilities:\nAccounts payable\n$ \n68,960 \n$ \n62,611 \nOther current liabilities\n \n78,304 \n \n58,829 \nDeferred revenue\n \n8,249 \n \n8,061 \nCommercial paper\n \n9,967 \n \n5,985 \nTerm debt\n \n10,912 \n \n9,822 \nTotal current liabilities\n \n176,392 \n \n145,308 \nNon-current liabilities:\n",
+      "document": "APPLE_ANNUAL_2024.pdf",
+      "page_number": 34,
+      "company": "APPLE",
+      "year": "2024",
+      "confidence": "high"
+    },
+    "shareholders_equity": {
+      "value": 56950.0,
+      "raw_text": "56,950",
+      "source_text": "l paid-in capital, $0.00001 par value: 50,400,000 shares \nauthorized; 15,116,786 and 15,550,061 shares issued and outstanding, respectively\n \n83,276 \n \n73,812 \nAccumulated deficit\n \n(19,154)  \n(214) \nAccumulated other comprehensive loss\n \n(7,172)  \n(11,452) \nTotal shareholders’ equity\n \n56,950 \n \n62,146 \nTotal liabilities and shareholders’ equity\n$ \n364,980 \n$ \n352,583 \nSee accompanying Notes to C",
+      "document": "APPLE_ANNUAL_2024.pdf",
+      "page_number": 34,
+      "company": "APPLE",
+      "year": "2024",
+      "confidence": "high"
+    },
+    "operating_cash_flow": {
+      "value": null,
+      "raw_text": null,
+      "source_text": null,
+      "document": null,
+      "page_number": null,
+      "company": "APPLE",
+      "year": "2024",
+      "confidence": "not_found"
+    },
+    "eps": {
+      "value": 6.11,
+      "raw_text": "$ \n6.11",
+      "source_text": "s.\nNote 3 – Earnings Per Share\nThe following table shows the computation of basic and diluted earnings per share for 2024, 2023 and 2022 (net income in \nmillions and shares in thousands):\n2024\n2023\n2022\nNumerator:\nNet income\n$ \n93,736 \n$ \n96,995 \n$ \n99,803 \nDenominator:\nWeighted-average basic shares outstanding\n \n15,343,783 \n \n15,744,231 \n \n16,215,963 \nEffect of dilutive share-based awards\n \n64,31",
+      "document": "APPLE_ANNUAL_2024.pdf",
+      "page_number": 39,
+      "company": "APPLE",
+      "year": "2024",
+      "confidence": "high"
+    },
+    "revenue_trend": {
+      "value": "during 2024 compared to 2023 due primarily to higher net sales of Services",
+      "raw_text": "during 2024 compared to 2023 due primarily to higher net sales of Services",
+      "source_text": "Segment Operating Performance\nThe following table shows net sales by reportable segment for 2024, 2023 and 2022 (dollars in millions):\n2024\nChange\n2023\nChange\n2022\nAmericas\n$ \n167,045 \n 3 % $ \n162,560 \n (4) % $ \n169,658 \nEurope\n \n101,328 \n 7 %  \n94,294 \n (1) %  \n95,118 \nGreater China\n \n66,952 \n (8) %  \n72,559 \n (2) %  \n74,200 \nJapan\n \n25,052 \n 3 %  \n24,257 \n (7) %  \n25,977 \nRest of Asia Pacific\n \n",
+      "document": "APPLE_ANNUAL_2024.pdf",
+      "page_number": 25,
+      "company": "APPLE",
+      "year": "2024",
+      "confidence": "low"
+    }
+  },
+  "ratios": {
+    "net_profit_margin": {
+      "value": 0.5611,
+      "percentage": "56.11%",
+      "formula": "Net Income / Revenue",
+      "inputs_used": {
+        "net_income": 93736.0,
+        "revenue": 167045.0
+      }
+    },
+    "debt_to_equity": {
+      "value": 5.4088,
+      "formula": "Total Liabilities / Shareholders Equity",
+      "inputs_used": {
+        "total_liabilities": 308030.0,
+        "equity": 56950.0
+      }
+    },
+    "return_on_assets": {
+      "value": 0.2568,
+      "percentage": "25.68%",
+      "formula": "Net Income / Total Assets",
+      "inputs_used": {
+        "net_income": 93736.0,
+        "total_assets": 364980.0
+      }
+    },
+    "equity_ratio": {
+      "value": 0.156,
+      "percentage": "15.6%",
+      "formula": "Shareholders Equity / Total Assets",
+      "inputs_used": {
+        "equity": 56950.0,
+        "total_assets": 364980.0
+      }
+    }
+  }
+}

@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finora AI — Financial Intelligence Terminal</title>
+  <meta name="description" content="Multi-agent AI platform for institutional financial research, risk analysis, and automated report generation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <!-- APP SHELL -->
+  <div class="app-shell">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+      <!-- Brand -->
+      <div class="brand-row">
+        <div class="brand-logo">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+        </div>
+        <div>
+          <div class="brand-name">Finora AI</div>
+          <div class="brand-sub">Intelligence Terminal</div>
+        </div>
+      </div>
+
+      <!-- Agent Status -->
+      <div class="agent-status-block">
+        <div class="agent-status-row">
+          <span class="pulse-ring"></span>
+          <span class="agent-status-label">5 AGENTS ONLINE</span>
+        </div>
+        <div class="agent-bars">
+          <div class="agent-bar-seg" title="Document Agent"></div>
+          <div class="agent-bar-seg" title="Extraction Agent"></div>
+          <div class="agent-bar-seg" title="Risk Agent"></div>
+          <div class="agent-bar-seg" title="Benchmark Agent"></div>
+          <div class="agent-bar-seg" title="Research Agent"></div>
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <div class="nav-section-label">Workspace</div>
+
+      <a class="nav-link active" data-route="dashboard" id="nav-dashboard">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+        Overview
+        <span class="nav-badge" id="navBadgeCompanies">14</span>
+      </a>
+      <a class="nav-link" data-route="sessions" id="nav-sessions">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+        Research Sessions
+        <span class="nav-badge" id="navBadgeSessions">3</span>
+      </a>
+      <a class="nav-link" data-route="documents" id="nav-documents">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+        Documents
+        <span class="nav-badge" id="navBadgeDocs">20</span>
+      </a>
+
+      <div class="nav-section-label" style="margin-top:8px;">Analytics</div>
+
+      <a class="nav-link" data-route="companies" id="nav-companies">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18"/><path d="M19 21v-8a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v8"/></svg>
+        Companies
+      </a>
+      <a class="nav-link" data-route="metrics" id="nav-metrics">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+        Financial Metrics
+      </a>
+      <a class="nav-link" data-route="risks" id="nav-risks">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        Risk Analysis
+        <span class="nav-badge" id="navBadgeRisks">40</span>
+      </a>
+      <a class="nav-link" data-route="benchmark" id="nav-benchmark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        Benchmarking
+      </a>
+      <a class="nav-link" data-route="reports" id="nav-reports">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
+        Reports
+        <span class="nav-badge" id="navBadgeReports">6</span>
+      </a>
+
+      <div class="nav-section-label" style="margin-top:8px;">AI</div>
+
+      <a class="nav-link" data-route="research" id="nav-research">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        Research Agent
+      </a>
+
+      <!-- User Footer -->
+      <div class="user-footer">
+        <div class="user-card">
+          <div class="user-ava">UK</div>
+          <div>
+            <div class="user-name">Udhaya Kiran</div>
+            <div class="user-email">demo@finora.ai</div>
+          </div>
+        </div>
+        <button class="sign-out-btn" id="signOutBtn">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+          Sign Out
+        </button>
+      </div>
+
+    </aside>
+
+    <!-- MAIN AREA -->
+    <main class="main-area">
+
+      <!-- TOPBAR -->
+      <header class="topbar">
+        <div class="breadcrumb">
+          <span class="bc-root">Finora AI</span>
+          <span class="bc-sep">/</span>
+          <span class="bc-page" id="bcPage">Overview</span>
+        </div>
+        <div class="topbar-right">
+          <div class="status-chip">
+            <span class="pulse-ring" style="width:6px;height:6px;"></span>
+            AI Agents Ready
+          </div>
+          <div class="market-time" id="marketTime">IST 21:34:48</div>
+          <div class="topbar-user-ava">UK</div>
+        </div>
+      </header>
+
+      <!-- CANVAS -->
+      <div class="canvas">
+
+        <!-- ===== 1. DASHBOARD ===== -->
+        <section id="view-dashboard" class="view active">
+
+          <div class="page-header">
+            <div>
+              <div class="page-title">Financial Intelligence Overview</div>
+              <div class="page-subtitle">Multi-agent AI analysis platform — 5 agents processing 20 indexed documents across 14 entities</div>
+            </div>
+            <div style="display:flex;gap:8px;">
+              <button class="btn-outline" onclick="openModal('modalNewSession')">+ New Session</button>
+              <button class="btn-gold" onclick="openModal('modalUploadDoc')">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg>
+                Upload Filing
+              </button>
+            </div>
+          </div>
+
+          <!-- KPI Strip -->
+          <div class="kpi-strip">
+            <div class="kpi-card" onclick="switchRoute('companies')">
+              <div class="kpi-trend">+2 this week</div>
+              <div class="kpi-num" id="kpiCompanies">14</div>
+              <div class="kpi-label">Companies</div>
+            </div>
+            <div class="kpi-card" onclick="switchRoute('documents')">
+              <div class="kpi-trend">+3 today</div>
+              <div class="kpi-num" id="kpiDocs">20</div>
+              <div class="kpi-label">Documents</div>
+            </div>
+            <div class="kpi-card" onclick="switchRoute('sessions')">
+              <div class="kpi-num" id="kpiSessions">3</div>
+              <div class="kpi-label">Active Sessions</div>
+            </div>
+            <div class="kpi-card" onclick="switchRoute('risks')">
+              <div class="kpi-trend" style="color:var(--negative)">6 critical</div>
+              <div class="kpi-num" id="kpiRisks">40</div>
+              <div class="kpi-label">Risk Flags</div>
+            </div>
+            <div class="kpi-card" onclick="switchRoute('reports')">
+              <div class="kpi-num" id="kpiReports">6</div>
+              <div class="kpi-label">AI Reports</div>
+            </div>
+          </div>
+
+          <!-- Pipeline Strip -->
+          <div class="pipeline-strip">
+            <div class="pipeline-header-left">
+              <div class="pipeline-label">Agent Pipeline</div>
+              <div class="pipeline-status-val">All Systems Active</div>
+            </div>
+            <div class="pipeline-agents-row" id="pipelineRow">
+              <!-- rendered by JS -->
+            </div>
+          </div>
+
+          <!-- 3-Column Dashboard Grid -->
+          <div class="dash-grid">
+
+            <!-- Col 1: Market Cards -->
+            <div class="panel">
+              <div class="panel-header">
+                <span class="panel-title">Portfolio Snapshot — FY2023</span>
+                <span class="panel-action" onclick="switchRoute('metrics')">View All Metrics →</span>
+              </div>
+              <div class="market-cards-grid" id="marketCardsGrid">
+                <!-- rendered by JS -->
+              </div>
+            </div>
+
+            <!-- Col 2: Live Agent Activity Log -->
+            <div class="panel">
+              <div class="panel-header">
+                <span class="panel-title">Agent Activity Log</span>
+                <span style="font-size:0.62rem;color:var(--teal);font-weight:600;font-family:var(--font-mono);">LIVE</span>
+              </div>
+              <div class="activity-log" id="activityLog">
+                <!-- rendered by JS -->
+              </div>
+            </div>
+
+            <!-- Col 3: Quick Actions + Sessions + Reports -->
+            <div style="display:flex;flex-direction:column;gap:14px;">
+
+              <div class="panel">
+                <div class="panel-header"><span class="panel-title">Quick Actions</span></div>
+                <div class="actions-grid">
+                  <div class="action-tile" onclick="openModal('modalNewSession')">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+                    <span class="action-tile-label">New Session</span>
+                  </div>
+                  <div class="action-tile" onclick="openModal('modalUploadDoc')">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg>
+                    <span class="action-tile-label">Upload Filing</span>
+                  </div>
+                  <div class="action-tile" onclick="switchRoute('research')">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    <span class="action-tile-label">Ask Agent</span>
+                  </div>
+                  <div class="action-tile" onclick="openModal('modalGenerateReport')">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/></svg>
+                    <span class="action-tile-label">Gen Report</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="panel">
+                <div class="panel-header">
+                  <span class="panel-title">Recent Sessions</span>
+                  <span class="panel-action" onclick="switchRoute('sessions')">View all</span>
+                </div>
+                <div id="dashSessions"><!-- by JS --></div>
+              </div>
+
+              <div class="panel">
+                <div class="panel-header">
+                  <span class="panel-title">Recent Reports</span>
+                  <span class="panel-action" onclick="switchRoute('reports')">View all</span>
+                </div>
+                <div id="dashReports"><!-- by JS --></div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <!-- ===== 2. SESSIONS VIEW ===== -->
+        <section id="view-sessions" class="view">
+          <div class="page-header">
+            <div>
+              <div class="page-title">Research Sessions</div>
+              <div class="page-subtitle">Named workspaces grouping documents, Q&A history, and analysis artifacts</div>
+            </div>
+            <button class="btn-gold" onclick="openModal('modalNewSession')">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+              New Session
+            </button>
+          </div>
+          <div class="sessions-grid" id="sessionsGrid"><!-- by JS --></div>
+        </section>
+
+        <!-- ===== 3. DOCUMENTS VIEW ===== -->
+        <section id="view-documents" class="view">
+          <div class="page-header">
+            <div>
+              <div class="page-title">Financial Documents</div>
+              <div class="page-subtitle">Indexed 10-K filings, earnings transcripts, and annual reports — searchable via ChromaDB vectors</div>
+            </div>
+            <button class="btn-gold" onclick="openModal('modalUploadDoc')">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg>
+              Upload Document
+            </button>
+          </div>
+
+          <div class="docs-toolbar">
+            <input class="search-input" id="docSearch" placeholder="Search by filename or company..." style="width:280px;">
+            <select class="form-select" id="docTypeFilter" style="width:180px;">
+              <option value="all">All Document Types</option>
+              <option value="Annual Report">Annual Report (10-K)</option>
+              <option value="Quarterly">Quarterly (10-Q)</option>
+            </select>
+            <span class="filter-count-chip" id="docCountChip">20 documents</span>
+          </div>
+
+          <div class="docs-table-card">
+            <div class="docs-table-header">
+              <span>Document</span>
+              <span style="text-align:center;">Company</span>
+              <span style="text-align:center;">Year</span>
+              <span style="text-align:center;">Chunks</span>
+              <span style="text-align:center;">Format</span>
+              <span style="text-align:center;">Indexed</span>
+              <span style="text-align:center;">Analysis Report</span>
+            </div>
+            <div id="docsTableBody"><!-- by JS --></div>
+          </div>
+        </section>
+
+        <!-- ===== 4. COMPANIES VIEW ===== -->
+        <section id="view-companies" class="view">
+          <div class="page-header">
+            <div>
+              <div class="page-title">Companies</div>
+              <div class="page-subtitle">Financial profiles and extracted metrics across indexed company filings</div>
+            </div>
+            <div style="display:flex;gap:8px;">
+              <button class="btn-outline" id="btnToggleCompView" onclick="toggleCompanyView()">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+                Table View
+              </button>
+            </div>
+          </div>
+
+          <div class="companies-toolbar" style="margin-bottom:20px;">
+            <div style="display:flex;gap:10px;align-items:center;flex:1;">
+              <input class="search-input" id="compSearch" placeholder="Search company, ticker, or sector..." style="width:280px;">
+              <span class="filter-count-chip" id="compCountChip">14 companies</span>
+            </div>
+          </div>
+
+          <!-- Card Grid View (Default — Matches Reference UI) -->
+          <div class="companies-grid" id="companiesGrid">
+            <!-- Rendered by JS -->
+          </div>
+
+          <!-- Table View (Optional Toggle) -->
+          <div class="company-table-card" id="companiesTableCard" style="display:none;margin-top:20px;">
+            <div style="overflow-x:auto;">
+              <table class="fin-table">
+                <thead>
+                  <tr>
+                    <th>Company</th>
+                    <th>Revenue</th>
+                    <th>Net Margin</th>
+                    <th>Gross Margin</th>
+                    <th>ROE</th>
+                    <th>D/E</th>
+                    <th>EPS</th>
+                    <th>YoY Growth</th>
+                    <th style="text-align:center;">Actions</th>
+                  </tr>
+                </thead>
+                <tbody id="companiesTableBody"><!-- by JS --></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===== 5. FINANCIAL METRICS VIEW ===== -->
+        <section id="view-metrics" class="view">
+          <div class="page-header">
+            <div>
+              <div class="page-title">Financial Metrics</div>
+              <div class="page-subtitle">KPIs and ratios extracted by the Extraction Agent from indexed annual filings</div>
+            </div>
+          </div>
+
+          <!-- Company Multi-Select Filter Toolbar -->
+          <div class="metrics-company-picker">
+            <div class="mcp-header">
+              <div class="mcp-left">
+                <span class="mcp-title"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 21h18M19 21v-8a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v8"/></svg> Filter by Company:</span>
+                <span class="mcp-hint" id="metricsFilterHint">Click 1 company to isolate its graphs, or select multiple to compare side-by-side</span>
+              </div>
+              <div class="mcp-actions">
+                <button class="mcp-pill-btn active" id="btnSelectAllComps" onclick="resetMetricsCompanyFilter()">All Companies</button>
+                <button class="mcp-pill-btn" onclick="clearMetricsCompanyFilter()">Clear All</button>
+              </div>
+            </div>
+            <div class="metrics-chips-wrap" id="metricsCompanyChips">
+              <!-- Dynamically populated by JS -->
+            </div>
+          </div>
+
+          <div class="tab-row">
+            <div class="tab-item active" onclick="setTab('revenue',this)">Revenue &amp; EBITDA</div>
+            <div class="tab-item" onclick="setTab('margins',this)">Margins</div>
+            <div class="tab-item" onclick="setTab('ratios',this)">Ratios</div>
+            <div class="tab-item" onclick="setTab('cashflow',this)">Cash Flow</div>
+          </div>
+
+          <div class="metrics-layout">
+            <div class="chart-panel">
+              <div class="chart-panel-header">
+                <span class="chart-panel-title" id="barChartTitle">Revenue &amp; EBITDA (Millions USD)</span>
+                <span class="chart-tag" id="barChartTag">Extraction Agent</span>
+              </div>
+              <div class="chart-wrap"><canvas id="barChart"></canvas></div>
+            </div>
+
+            <div class="chart-panel">
+              <div class="chart-panel-header">
+                <span class="chart-panel-title" id="secondaryChartTitle">Performance Radar</span>
+                <span class="chart-tag" id="secondaryChartTag">5 Dimensions</span>
+              </div>
+              <div class="radar-pills" id="radarPills"><!-- by JS --></div>
+              <div class="chart-wrap" style="height:200px;"><canvas id="radarChart"></canvas></div>
+            </div>
+          </div>
+
+          <!-- DuPont ROE Breakdown & Stress Simulator Module -->
+          <div class="dupont-panel" id="dupontPanel">
+            <div class="dupont-header">
+              <div>
+                <div class="dupont-title">
+                  <span>⚡ DuPont ROE Decomposition &amp; Sensitivity Simulator</span>
+                  <span class="dupont-badge" id="dupontCompBadge">Apple Inc.</span>
+                </div>
+                <div class="dupont-subtitle">Breaks down Return on Equity into profit margin, asset utilization, and financial leverage with interactive stress scenarios</div>
+              </div>
+              <div class="dupont-select-wrap">
+                <label for="dupontCompanySelect" style="font-size:0.74rem;color:var(--text-muted);font-weight:600;">Analysis Entity:</label>
+                <select id="dupontCompanySelect" class="filter-select" onchange="updateDuPontView(this.value)">
+                  <!-- populated by JS -->
+                </select>
+              </div>
+            </div>
+
+            <div class="dupont-cards-grid">
+              <div class="dupont-card">
+                <div class="dupont-card-label">1. Net Profit Margin</div>
+                <div class="dupont-card-val" id="dpNetMargin">24.6%</div>
+                <div class="dupont-card-sub">Operating efficiency &amp; pricing power</div>
+              </div>
+              <div class="dupont-math-op">×</div>
+              <div class="dupont-card">
+                <div class="dupont-card-label">2. Asset Turnover</div>
+                <div class="dupont-card-val" id="dpAssetTurn">1.12x</div>
+                <div class="dupont-card-sub">Revenue generation per $ asset base</div>
+              </div>
+              <div class="dupont-math-op">×</div>
+              <div class="dupont-card">
+                <div class="dupont-card-label">3. Financial Leverage</div>
+                <div class="dupont-card-val" id="dpLeverage">5.67x</div>
+                <div class="dupont-card-sub">Total Assets / Equity (1 + D/E)</div>
+              </div>
+              <div class="dupont-math-op">=</div>
+              <div class="dupont-card result">
+                <div class="dupont-card-label">Base Return on Equity</div>
+                <div class="dupont-card-val" id="dpRoe">156.0%</div>
+                <div class="dupont-card-sub" id="dpRoeQuality">Exceptional Capital Efficiency</div>
+              </div>
+            </div>
+
+            <!-- Stress Testing Simulator -->
+            <div class="dupont-simulator">
+              <div class="sim-header">
+                <span class="sim-title">Scenario Stress-Tester &amp; Sensitivity Analysis</span>
+                <span class="sim-subtitle">Simulate real-time impact of macro shocks on net margins, solvency, and ROE</span>
+              </div>
+              <div class="sim-sliders-grid">
+                <div class="sim-slider-group">
+                  <div class="sim-label-row">
+                    <span>Revenue Shock / Demand Contraction:</span>
+                    <span class="sim-val" id="revShockVal">0%</span>
+                  </div>
+                  <input type="range" class="sim-slider" id="revShockSlider" min="-25" max="25" step="1" value="0" oninput="runStressSimulation()">
+                  <div class="sim-range-labels"><span>-25% Recession</span><span>0% Baseline</span><span>+25% Expansion</span></div>
+                </div>
+                <div class="sim-slider-group">
+                  <div class="sim-label-row">
+                    <span>Operating Cost / Margin Shift:</span>
+                    <span class="sim-val" id="marginShockVal">0 bps</span>
+                  </div>
+                  <input type="range" class="sim-slider" id="marginShockSlider" min="-500" max="500" step="25" value="0" oninput="runStressSimulation()">
+                  <div class="sim-range-labels"><span>-500 bps Compression</span><span>0 bps Baseline</span><span>+500 bps Expansion</span></div>
+                </div>
+              </div>
+
+              <div class="sim-output-box">
+                <div class="sim-out-item">
+                  <span class="sim-out-label">Simulated Net Margin</span>
+                  <span class="sim-out-val" id="simNetMargin">24.6%</span>
+                </div>
+                <div class="sim-out-item">
+                  <span class="sim-out-label">Simulated ROE</span>
+                  <span class="sim-out-val" id="simRoe">156.0%</span>
+                </div>
+                <div class="sim-out-item">
+                  <span class="sim-out-label">Capital &amp; Solvency Health</span>
+                  <span class="sim-out-val" id="simSolvencyStatus" style="color:var(--positive);">Resilient (Tier-1 Liquidity)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="metrics-full-table">
+            <div class="metrics-table-header">
+              <span style="font-size:0.78rem;font-weight:700;color:var(--text-primary);text-transform:uppercase;letter-spacing:0.05em;">Detailed Metrics Table</span>
+              <div style="display:flex;gap:8px;align-items:center;">
+                <input class="search-input" id="metricsFilter" placeholder="Filter..." style="width:180px;">
+              </div>
+            </div>
+            <div style="overflow-x:auto;">
+              <table class="fin-table" style="font-size:0.74rem;">
+                <thead>
+                  <tr>
+                    <th>Company</th>
+                    <th>Revenue</th>
+                    <th>Rev Growth</th>
+                    <th>Gross Margin</th>
+                    <th>Op Margin</th>
+                    <th>Net Margin</th>
+                    <th>Curr. Ratio</th>
+                    <th>D/E</th>
+                    <th>ROE</th>
+                    <th>EPS</th>
+                  </tr>
+                </thead>
+                <tbody id="metricsTableBody"><!-- by JS --></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===== 6. RISK ANALYSIS VIEW ===== -->
+        <section id="view-risks" class="view">
+          <div class="page-header">
+            <div>
+              <div class="page-title">Risk Analysis</div>
+              <div class="page-subtitle">Red flags identified by the Risk Agent across all indexed filings with analyst recommendations</div>
+            </div>
+          </div>
+
+          <div class="risk-header-strip">
+            <div class="risk-counter crit" onclick="setRiskFilter('critical')">
+              <div class="rc-emoji">🔴</div>
+              <div class="rc-num" id="rcCritical">6</div>
+              <div class="rc-label">Critical Risks</div>
+            </div>
+            <div class="risk-counter high" onclick="setRiskFilter('high')">
+              <div class="rc-emoji">🟠</div>
+              <div class="rc-num" id="rcHigh">21</div>
+              <div class="rc-label">High Risks</div>
+            </div>
+            <div class="risk-counter med" onclick="setRiskFilter('medium')">
+              <div class="rc-emoji">🟡</div>
+              <div class="rc-num" id="rcMedium">13</div>
+              <div class="rc-label">Medium Risks</div>
+            </div>
+            <div class="risk-counter low" onclick="setRiskFilter('low')">
+              <div class="rc-emoji">🟢</div>
+              <div class="rc-num" id="rcLow">0</div>
+              <div class="rc-label">Low Risks</div>
+            </div>
+          </div>
+
+          <div class="risk-filter-row">
+            <select class="filter-select" id="riskSevFilter">
+              <option value="all">All Severities</option>
+              <option value="critical">Critical</option>
+              <option value="high">High</option>
+              <option value="medium">Medium</option>
+              <option value="low">Low</option>
+            </select>
+            <select class="filter-select" id="riskTypeFilter">
+              <option value="all">All Risk Types</option>
+              <option value="Margin Risk">Margin Risk</option>
+              <option value="Regulatory Risk">Regulatory Risk</option>
+              <option value="Market Risk">Market Risk</option>
+              <option value="Liquidity Risk">Liquidity Risk</option>
+              <option value="Operational Risk">Operational Risk</option>
+              <option value="Going Concern">Going Concern</option>
+              <option value="Auditor Qualification">Auditor Qualification</option>
+              <option value="Accounting Control Risk">Accounting Control Risk</option>
+            </select>
+            <span class="filter-count-chip" id="riskCountChip">40 risks shown</span>
+          </div>
+
+          <div id="risksList"><!-- by JS --></div>
+        </section>
+
+        <!-- ===== 7. BENCHMARKING VIEW ===== -->
+        <section id="view-benchmark" class="view">
+          <div class="page-header">
+            <div>
+              <div class="page-title">Company Benchmarking</div>
+              <div class="page-subtitle">Side-by-side multi-metric financial comparison across selected entities</div>
+            </div>
+          </div>
+
+          <div class="bench-picker">
+            <div class="bench-picker-title">Select Companies to Compare</div>
+            <div class="bench-chips-wrap" id="benchChips"><!-- by JS --></div>
+            <button class="btn-gold" onclick="renderBenchMatrix()">
+              Compare Selected →
+            </button>
+          </div>
+
+          <div class="bench-matrix">
+            <div style="padding:12px 18px;background:var(--bg-panel);border-bottom:1px solid var(--border-default);font-size:0.72rem;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.07em;">
+              Comparison Matrix
+            </div>
+            <div style="overflow-x:auto;">
+              <table class="bench-table">
+                <thead id="benchThead"></thead>
+                <tbody id="benchTbody"></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <!-- ===== 8. REPORTS VIEW ===== -->
+        <section id="view-reports" class="view">
+          <div class="page-header">
+            <div>
+              <div class="page-title">Analysis Reports</div>
+              <div class="page-subtitle">AI-generated analyst-style investment research reports with risk-weighted recommendations</div>
+            </div>
+            <button class="btn-gold" onclick="openModal('modalGenerateReport')">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+              Generate Report
+            </button>
+          </div>
+          <div class="reports-panel-grid" id="reportsList"><!-- by JS --></div>
+        </section>
+
+        <!-- ===== 9. RESEARCH AGENT VIEW ===== -->
+        <section id="view-research" class="view">
+          <div class="page-header">
+            <div>
+              <div class="page-title">Research Agent</div>
+              <div class="page-subtitle">Multi-hop grounded Q&amp;A with dual-mode AI reasoning and citation verification</div>
+            </div>
+          </div>
+
+          <div class="research-wrapper">
+            <!-- Dual-Mode AI Selector Bar -->
+            <div class="research-mode-bar">
+              <div class="rmb-modes">
+                <button class="rmb-btn" id="modeBtnDefault" onclick="setResearchMode('default')">
+                  <span class="rmb-icon">📄</span>
+                  <span class="rmb-text">
+                    <strong>Default Prompt</strong>
+                    <small>Fast Grounded RAG Index</small>
+                  </span>
+                </button>
+                <button class="rmb-btn active" id="modeBtnAdvanced" onclick="setResearchMode('advanced')">
+                  <span class="rmb-icon">✨</span>
+                  <span class="rmb-text">
+                    <strong>Advanced AI Mode</strong>
+                    <small>Gemini 3.8 Flash Reasoning &amp; Synthesis</small>
+                  </span>
+                </button>
+              </div>
+              <div class="rmb-status">
+                <span class="pulse-ring" style="width:6px;height:6px;background:var(--teal);"></span>
+                <span id="rmbStatusText">Role: Senior Investment Banking &amp; Fundamental Research Analyst</span>
+              </div>
+            </div>
+
+            <!-- Suggestion Chips -->
+            <div class="research-topbar">
+              <span class="suggestion-chip" onclick="sendSuggestion('What is Apple\'s revenue growth trend and gross margin?')">Apple revenue growth & gross margin</span>
+              <span class="suggestion-chip" onclick="sendSuggestion('Identify the top 3 financial risks across all loaded companies')">Top 3 financial risks across all companies</span>
+              <span class="suggestion-chip" onclick="sendSuggestion('Compare the free cash flow generation of Tesla vs Apple')">Tesla vs Apple free cash flow</span>
+              <span class="suggestion-chip" onclick="sendSuggestion('What is Microsoft gross margin trend?')">Microsoft gross margin trend</span>
+              <span class="suggestion-chip" onclick="sendSuggestion('Summarize TCS annual performance and recommendation')">TCS annual performance summary</span>
+            </div>
+
+            <!-- Chat Messages -->
+            <div class="chat-scroll" id="chatMessages"><!-- seeded by JS --></div>
+
+            <!-- Input Bar -->
+            <div class="chat-input-area">
+              <textarea class="chat-textarea" id="chatInput" placeholder="Ask an institutional financial question... (Enter to send, Shift+Enter for new line)"></textarea>
+              <button class="chat-send" id="chatSend" onclick="handleSend()">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              </button>
+            </div>
+          </div>
+        </section>
+
+      </div><!-- end canvas -->
+    </main>
+  </div><!-- end app-shell -->
+
+  <!-- TOAST CONTAINER -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- ===== MODALS ===== -->
+
+  <!-- Upload Document Modal -->
+  <div class="modal-overlay" id="modalUploadDoc">
+    <div class="modal-box">
+      <div class="modal-hdr">
+        <h3>Upload Financial Document</h3>
+        <button class="modal-close" onclick="closeModal('modalUploadDoc')">&times;</button>
+      </div>
+      <form id="uploadForm" onsubmit="handleUpload(event)">
+        <div class="form-field">
+          <label class="form-label">Target Company</label>
+          <input class="form-input" id="uploadCompany" placeholder="e.g. NVIDIA, Meta, TCS..." required>
+        </div>
+        <div class="form-field">
+          <label class="form-label">Fiscal Year</label>
+          <select class="form-select" id="uploadYear">
+            <option value="FY2026">FY 2026</option>
+            <option value="FY2025">FY 2025</option>
+            <option value="FY2024">FY 2024</option>
+            <option value="FY2023">FY 2023</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label class="form-label">Document Type</label>
+          <select class="form-select" id="uploadType">
+            <option>Annual Report (10-K)</option>
+            <option>Quarterly Report (10-Q)</option>
+            <option>Earnings Call Transcript</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label class="form-label">File Attachment</label>
+          <div class="drop-zone" onclick="document.getElementById('fileInput').click()">
+            <div class="drop-zone-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M17 8l-5-5-5 5M12 3v12"/></svg>
+            </div>
+            <div class="drop-zone-text" id="dropText">Click to browse file</div>
+            <div class="drop-zone-sub">PDF, TXT, DOCX — max 50MB</div>
+          </div>
+          <input type="file" id="fileInput" style="display:none;" onchange="onFileSelect(event)">
+        </div>
+        <div class="modal-actions">
+          <button type="button" class="btn-outline" onclick="closeModal('modalUploadDoc')">Cancel</button>
+          <button type="submit" class="btn-gold" id="btnUpload">Index Document</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- New Session Modal -->
+  <div class="modal-overlay" id="modalNewSession">
+    <div class="modal-box">
+      <div class="modal-hdr">
+        <h3>Create Research Session</h3>
+        <button class="modal-close" onclick="closeModal('modalNewSession')">&times;</button>
+      </div>
+      <form id="sessionForm" onsubmit="handleNewSession(event)">
+        <div class="form-field">
+          <label class="form-label">Session Name</label>
+          <input class="form-input" id="sessName" placeholder="e.g. European EV Market Analysis 2026" required>
+        </div>
+        <div class="form-field">
+          <label class="form-label">Research Scope</label>
+          <textarea class="form-textarea" id="sessDesc" placeholder="Describe research objective, target companies, KPIs..."></textarea>
+        </div>
+        <div class="form-field">
+          <label class="form-label">Tags (comma-separated)</label>
+          <input class="form-input" id="sessTags" placeholder="Technology, FY2026, Margins">
+        </div>
+        <div class="modal-actions">
+          <button type="button" class="btn-outline" onclick="closeModal('modalNewSession')">Cancel</button>
+          <button type="submit" class="btn-gold">Create Workspace</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Generate Report Modal -->
+  <div class="modal-overlay" id="modalGenerateReport">
+    <div class="modal-box">
+      <div class="modal-hdr">
+        <h3>Generate AI Research Report</h3>
+        <button class="modal-close" onclick="closeModal('modalGenerateReport')">&times;</button>
+      </div>
+      <form id="reportForm" onsubmit="handleGenReport(event)">
+        <div class="form-field">
+          <label class="form-label">Target Company</label>
+          <select class="form-select" id="repCompany">
+            <option>Tesla, Inc.</option>
+            <option>Apple Inc.</option>
+            <option>Microsoft Corporation</option>
+            <option>Amazon.com, Inc.</option>
+            <option>TCS</option>
+            <option>Infosys</option>
+            <option>Reliance Industries</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label class="form-label">Analyst Recommendation</label>
+          <select class="form-select" id="repRec">
+            <option value="Buy">Buy — High Conviction</option>
+            <option value="Hold / Neutral">Hold / Neutral</option>
+            <option value="Caution / Watch">Caution / Watch</option>
+            <option value="Reduce">Reduce / Underweight</option>
+          </select>
+        </div>
+        <div class="modal-actions">
+          <button type="button" class="btn-outline" onclick="closeModal('modalGenerateReport')">Cancel</button>
+          <button type="submit" class="btn-gold" id="btnGenReport">Execute Pipeline →</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- View Full Report Modal -->
+  <div class="modal-overlay" id="modalViewReport">
+    <div class="modal-box" style="width:720px;">
+      <div class="modal-hdr">
+        <h3 id="viewRepTitle">Financial Analysis Report</h3>
+        <button class="modal-close" onclick="closeModal('modalViewReport')">&times;</button>
+      </div>
+      <div id="viewRepBody" style="font-size:0.84rem;line-height:1.7;color:var(--text-secondary);"></div>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="/js/data.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

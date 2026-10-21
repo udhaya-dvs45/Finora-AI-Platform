@@ -1,0 +1,119 @@
+{
+  "doc_id": "AMAZON_2024",
+  "company": "AMAZON",
+  "year": "2024",
+  "extracted_at": "2026-10-12T17:54:00.602962",
+  "metrics": {
+    "revenue": {
+      "value": 513983.0,
+      "raw_text": "513,983",
+      "source_text": "AMAZON.COM, INC.\nCONSOLIDATED STATEMENTS OF OPERATIONS\n(in millions, except per share data)\n  \nYear Ended December 31,\n \n2022\n2023\n2024\nNet product sales\n$ \n242,901 $ \n255,887 $ \n272,311 \nNet service sales\n \n271,082  \n318,898  \n365,648 \nTotal net sales\n \n513,983  \n574,785  \n637,959 \nOperating expenses:\nCost of sales\n \n288,831  \n304,739  \n326,288 \nFulfillment\n \n84,299  \n90,619  \n98,505 \nTechnology ",
+      "document": "AMAZON_ANNUAL_2024.pdf",
+      "page_number": 49,
+      "company": "AMAZON",
+      "year": "2024",
+      "confidence": "high"
+    },
+    "net_income": {
+      "value": ",",
+      "raw_text": ",",
+      "source_text": "s recognized as operating\n$ \n5,158 $ \n1,374 $ \n— \nEarnings Per Share\nBasic earnings per share is calculated using our weighted-average outstanding common shares. Diluted earnings per share \nis calculated using our weighted-average outstanding common shares including the dilutive effect of stock awards as \ndetermined under the treasury stock method. In periods when we have a net loss, stock awards ",
+      "document": "AMAZON_ANNUAL_2024.pdf",
+      "page_number": 54,
+      "company": "AMAZON",
+      "year": "2024",
+      "confidence": "low"
+    },
+    "operating_income": {
+      "value": 12248.0,
+      "raw_text": "12,248",
+      "source_text": "933  \n569,366 \nOperating income\n \n12,248  \n36,852  \n68,593 \nInterest income\n \n989  \n2,949  \n4,677 \nInterest expense\n \n(2,367)  \n(3,182)  \n(2,406) \nOther income (expense), net\n \n(16,806)  \n938  \n(2,250) \nTotal non-operating income (expense)\n \n(18,184)  \n705  \n21 \nIncome (loss) before income taxes\n \n(5,936)  \n37,557  \n68,614 \nBenefit (provision) for income taxes\n \n3,217  \n(7,120)  \n(9,265) \nEquity-m",
+      "document": "AMAZON_ANNUAL_2024.pdf",
+      "page_number": 49,
+      "company": "AMAZON",
+      "year": "2024",
+      "confidence": "high"
+    },
+    "gross_profit": {
+      "value": null,
+      "raw_text": null,
+      "source_text": null,
+      "document": null,
+      "page_number": null,
+      "company": "AMAZON",
+      "year": "2024",
+      "confidence": "not_found"
+    },
+    "total_assets": {
+      "value": 527854.0,
+      "raw_text": "$ \n527,854",
+      "source_text": "AMAZON.COM, INC.\nCONSOLIDATED BALANCE SHEETS\n(in millions, except per share data)\nDecember 31,\n \n2023\n2024\nASSETS\nCurrent assets:\nCash and cash equivalents\n$ \n73,387 $ \n78,779 \nMarketable securities\n \n13,393  \n22,423 \nInventories\n \n33,318  \n34,214 \nAccounts receivable, net and other\n \n52,253  \n55,451 \nTotal current assets\n \n172,351  \n190,867 \nProperty and equipment, net\n \n204,177  \n252,665 \nOperat",
+      "document": "AMAZON_ANNUAL_2024.pdf",
+      "page_number": 51,
+      "company": "AMAZON",
+      "year": "2024",
+      "confidence": "high"
+    },
+    "total_liabilities": {
+      "value": null,
+      "raw_text": null,
+      "source_text": null,
+      "document": null,
+      "page_number": null,
+      "company": "AMAZON",
+      "year": "2024",
+      "confidence": "not_found"
+    },
+    "shareholders_equity": {
+      "value": 201875.0,
+      "raw_text": "201,875",
+      "source_text": "64,709  \n66,965 \nUnearned revenue\n \n15,227  \n18,103 \nTotal current liabilities\n \n164,917  \n179,431 \nLong-term lease liabilities\n \n77,297  \n78,277 \nLong-term debt\n \n58,314  \n52,623 \nOther long-term liabilities\n \n25,451  \n28,593 \nCommitments and contingencies (Note 7)\nStockholders’ equity:\nPreferred stock ($0.01 par value; 500 shares authorized; no shares issued or outstanding)  \n—  \n— \nCommon stock",
+      "document": "AMAZON_ANNUAL_2024.pdf",
+      "page_number": 51,
+      "company": "AMAZON",
+      "year": "2024",
+      "confidence": "high"
+    },
+    "operating_cash_flow": {
+      "value": null,
+      "raw_text": null,
+      "source_text": null,
+      "document": null,
+      "page_number": null,
+      "company": "AMAZON",
+      "year": "2024",
+      "confidence": "not_found"
+    },
+    "eps": {
+      "value": 10189.0,
+      "raw_text": "10,189",
+      "source_text": "tation of basic earnings per share\n \n10,189  \n10,304  \n10,473 \nTotal dilutive effect of outstanding stock awards\n \n—  \n188  \n248 \nShares used in computation of diluted earnings per share\n \n10,189  \n10,492  \n10,721 \n42",
+      "document": "AMAZON_ANNUAL_2024.pdf",
+      "page_number": 54,
+      "company": "AMAZON",
+      "year": "2024",
+      "confidence": "high"
+    },
+    "revenue_trend": {
+      "value": 4.0,
+      "raw_text": "$4",
+      "source_text": "Dear Shareholders:\n2024 was a strong year for Amazon.\nOur total revenue grew 11% year-over-year (“YoY”) from $575B to $638B. By segment, North America\nrevenue increased 10% YoY from $353B to $387B, International revenue grew 9% YoY from $131B to $143B,\nand AWS revenue increased 19% YoY, from $91B to $108B. For perspective, just 10 years ago, AWS\nrevenue was $4.6B; and in that same year, Amazon’s t",
+      "document": "AMAZON_ANNUAL_2024.pdf",
+      "page_number": 2,
+      "company": "AMAZON",
+      "year": "2024",
+      "confidence": "high"
+    }
+  },
+  "ratios": {
+    "equity_ratio": {
+      "value": 0.3824,
+      "percentage": "38.24%",
+      "formula": "Shareholders Equity / Total Assets",
+      "inputs_used": {
+        "equity": 201875.0,
+        "total_assets": 527854.0
+      }
+    }
+  }
+}

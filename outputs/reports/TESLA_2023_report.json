@@ -1,0 +1,146 @@
+{
+  "doc_id": "TESLA_2023",
+  "company": "TESLA",
+  "year": "2023",
+  "generated_at": "2026-10-13T08:14:10.456706",
+  "generation_time_seconds": 0,
+  "executive_summary": {
+    "revenue": "90,738.00",
+    "net_income": "14,997.00",
+    "operating_income": "8,891.00",
+    "total_assets": "4,087.00",
+    "shareholders_equity": "62,634.00",
+    "overall_risk": "HIGH",
+    "total_flags": 10,
+    "risk_score": 100
+  },
+  "key_financials": {
+    "net_margin": "16.53%",
+    "op_margin": "N/A",
+    "gross_margin": "19.46%",
+    "debt_to_equity": "0.69",
+    "roa": "366.94%",
+    "roe": "N/A",
+    "current_ratio": "N/A",
+    "eps": "N/A",
+    "ebitda": "N/A",
+    "fcf": "N/A"
+  },
+  "red_flags": {
+    "overall_risk_level": "HIGH",
+    "risk_score_out_of_100": 100,
+    "total_flags": 10,
+    "high": 4,
+    "medium": 6,
+    "low": 0,
+    "top_flags": [
+      {
+        "title": "Disclosure: Material Weakness Detected",
+        "severity": "HIGH",
+        "category": "Auditor & Internal Controls",
+        "description": "Disclosed mentions of material weakness found in annual filing.",
+        "citation": {
+          "document": "TESLA_ANNUAL_2023.pdf",
+          "page": 123
+        }
+      },
+      {
+        "title": "Disclosure: Material Weakness Detected",
+        "severity": "HIGH",
+        "category": "Auditor & Internal Controls",
+        "description": "Disclosed mentions of material weakness found in annual filing.",
+        "citation": {
+          "document": "TESLA_ANNUAL_2023.pdf",
+          "page": 124
+        }
+      },
+      {
+        "title": "Disclosure: Material Weakness Detected",
+        "severity": "HIGH",
+        "category": "Auditor & Internal Controls",
+        "description": "Disclosed mentions of material weakness found in annual filing.",
+        "citation": {
+          "document": "TESLA_ANNUAL_2023.pdf",
+          "page": 48
+        }
+      },
+      {
+        "title": "Disclosure: Restatement Detected",
+        "severity": "HIGH",
+        "category": "Auditor & Internal Controls",
+        "description": "Disclosed mentions of restatement found in annual filing.",
+        "citation": {
+          "document": "TESLA_ANNUAL_2023.pdf",
+          "page": 126
+        }
+      },
+      {
+        "title": "Disclosure: Investigation Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of investigation found in annual filing.",
+        "citation": {
+          "document": "TESLA_ANNUAL_2023.pdf",
+          "page": 28
+        }
+      },
+      {
+        "title": "Disclosure: Investigation Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of investigation found in annual filing.",
+        "citation": {
+          "document": "TESLA_ANNUAL_2023.pdf",
+          "page": 91
+        }
+      },
+      {
+        "title": "Disclosure: Class Action Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of class action found in annual filing.",
+        "citation": {
+          "document": "TESLA_ANNUAL_2023.pdf",
+          "page": 90
+        }
+      },
+      {
+        "title": "Disclosure: Litigation Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of litigation found in annual filing.",
+        "citation": {
+          "document": "TESLA_ANNUAL_2023.pdf",
+          "page": 89
+        }
+      },
+      {
+        "title": "Disclosure: Impairment Detected",
+        "severity": "MEDIUM",
+        "category": "Impairments & Solvency Risks",
+        "description": "Disclosed mentions of impairment found in annual filing.",
+        "citation": {
+          "document": "TESLA_ANNUAL_2023.pdf",
+          "page": 68
+        }
+      },
+      {
+        "title": "Disclosure: Impairment Detected",
+        "severity": "MEDIUM",
+        "category": "Impairments & Solvency Risks",
+        "description": "Disclosed mentions of impairment found in annual filing.",
+        "citation": {
+          "document": "TESLA_ANNUAL_2023.pdf",
+          "page": 72
+        }
+      }
+    ]
+  },
+  "comparison": {},
+  "markdown_report": "# 📑 Financial Analysis Report: TESLA (2023)\n**Generated:** 2026-10-13 08:14:10  |  **Overall Risk Level:** `HIGH` (100/100)\n\n---\n\n## 1. Executive Summary\nTESLA reported total revenue/sales of **90,738.00** for fiscal year 2023.\nOperating income reached **8,891.00**, reflecting an operating margin of **N/A**.\nThe company closed the year with a net income of **14,997.00** (net profit margin: **16.53%**).\nTotal assets stood at **4,087.00** and shareholders' equity at **62,634.00**.\nThe automated risk scanner assigned an overall risk level of **HIGH** based on 10 detected flag(s).\n\n## 2. Key Financial Highlights & Ratios\n| Metric | Reported Value | Assessment |\n| --- | --- | --- |\n| Total Revenue | 90,738.00 | Core top-line performance |\n| Gross Profit | 17,660.00 | Revenue minus COGS |\n| Operating Income (EBIT) | 8,891.00 | Primary operating profitability |\n| Net Income | 14,997.00 | Bottom-line earnings |\n| EBITDA | N/A | Earnings before interest, taxes, depreciation |\n| Free Cash Flow | N/A | Operating cash flow minus CapEx |\n| Total Assets | 4,087.00 | Total balance sheet scale |\n| Shareholders' Equity | 62,634.00 | Net asset backing |\n| Total Debt | N/A | Outstanding debt obligations |\n| Cash & Equivalents | N/A | Liquid reserves |\n| Diluted EPS | N/A | Earnings per share |\n\n### Ratio Analysis\n| Ratio | Value | Benchmark |\n| --- | --- | --- |\n| Gross Margin | 19.46% | Pricing power & cost efficiency |\n| Operating Margin | N/A | Operational leverage |\n| Net Profit Margin | 16.53% | Profitability conversion |\n| Debt-to-Equity | 0.69 | Capital structure leverage |\n| Return on Assets (ROA) | 366.94% | Asset utilization efficiency |\n| Return on Equity (ROE) | N/A | Shareholder value creation |\n| Current Ratio | N/A | Short-term liquidity |\n\n## 3. Red Flag & Audit Risk Assessment\nThe automated audit scanner detected **10 flag(s)** — HIGH: 4, MEDIUM: 6, LOW: 0.\nOverall Risk Score: **100/100** (Level: **HIGH**).\n\n### Key Detected Disclosures & Anomalies:\n1. **[HIGH] Disclosure: Material Weakness Detected** (Auditor & Internal Controls)\n   - *Finding:* Disclosed mentions of material weakness found in annual filing.\n   - *Evidence:* \"ed by this report based on such evaluation;\nand\n(d)\nDisclosed in this report any change in the registrant’s internal control over financial reporting that occurred during the registrant’s\nmost recent \"\n   - *Citation:* `TESLA_ANNUAL_2023.pdf`, Page 123\n\n2. **[HIGH] Disclosure: Material Weakness Detected** (Auditor & Internal Controls)\n   - *Finding:* Disclosed mentions of material weakness found in annual filing.\n   - *Evidence:* \"rant’s other certifying officer and I have disclosed, based on our most recent evaluation of internal control over financial reporting, to the\nregistrant’s auditors and the audit committee of the regi\"\n   - *Citation:* `TESLA_ANNUAL_2023.pdf`, Page 124\n\n3. **[HIGH] Disclosure: Material Weakness Detected** (Auditor & Internal Controls)\n   - *Finding:* Disclosed mentions of material weakness found in annual filing.\n   - *Evidence:* \"to those risks. Such procedures included examining, on a\ntest basis, evidence regarding the amounts and disclosures in the consolidated financial statements. Our audits also included evaluating the ac\"\n   - *Citation:* `TESLA_ANNUAL_2023.pdf`, Page 48\n\n4. **[HIGH] Disclosure: Restatement Detected** (Auditor & Internal Controls)\n   - *Finding:* Disclosed mentions of restatement found in annual filing.\n   - *Evidence:* \"n is deemed “Received” in the Company’s fiscal period during which\nthe Financial Reporting Measure specified in or otherwise relating to the Incentive-Based Compensation award is\nattained, even if the\"\n   - *Citation:* `TESLA_ANNUAL_2023.pdf`, Page 126\n\n5. **[MEDIUM] Disclosure: Investigation Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of investigation found in annual filing.\n   - *Evidence:* \"ms may occur despite defensive measures, and may result in fines, penalties and damages and harm our brand, prospects\nand operating results.\nWe could be subject to liability, penalties and other restr\"\n   - *Citation:* `TESLA_ANNUAL_2023.pdf`, Page 28\n\n6. **[MEDIUM] Disclosure: Investigation Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of investigation found in annual filing.\n   - *Evidence:* \"quiries. To our knowledge\nno government agency in any ongoing investigation has concluded that any wrongdoing occurred. We cannot predict the outcome or impact of any\nongoing matters. Should the gover\"\n   - *Citation:* `TESLA_ANNUAL_2023.pdf`, Page 91\n\n7. **[MEDIUM] Disclosure: Class Action Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of class action found in annual filing.\n   - *Evidence:* \"Between October 17, 2018 and March 8, 2021, seven derivative lawsuits were filed in the Delaware Court of Chancery, purportedly on behalf of\nTesla, against Mr. Musk and the members of Tesla’s board of\"\n   - *Citation:* `TESLA_ANNUAL_2023.pdf`, Page 90\n\n8. **[MEDIUM] Disclosure: Litigation Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of litigation found in annual filing.\n   - *Evidence:* \"efendants filed their answer on September 17, 2020.\nOn July 14, 2023, the parties filed a Stipulation and Agreement of Compromise and Settlement, which does not involve an admission of any\nwrongdoing \"\n   - *Citation:* `TESLA_ANNUAL_2023.pdf`, Page 89\n\n## 4. Company Comparison & Benchmarking\n_No comparison data available for this report. Use the Compare command to add peer benchmarks._\n\n## 5. Strategic Outlook & Recommendation\n⚠️ **Caution Advised:** TESLA displays multiple high-severity risk signals or regulatory disclosures requiring thorough review before credit or capital allocation.\nElevated risk factors suggest a defensive positioning strategy with active monitoring of material developments.\n\n---\n*Report compiled by FinResearch AI Multi-Agent System — October 13, 2026*",
+  "recommendation": "CAUTION / MONITOR",
+  "overall_risk_level": "HIGH",
+  "json_path": "C:\\Users\\Udhaya kiran\\OneDrive\\Desktop\\INFOSYS_INTERN\\outputs\\reports\\TESLA_2023_report.json",
+  "markdown_path": "C:\\Users\\Udhaya kiran\\OneDrive\\Desktop\\INFOSYS_INTERN\\outputs\\reports\\TESLA_2023_report.md",
+  "pdf_path": "C:\\Users\\Udhaya kiran\\OneDrive\\Desktop\\INFOSYS_INTERN\\outputs\\reports\\TESLA_2023_report.pdf"
+}

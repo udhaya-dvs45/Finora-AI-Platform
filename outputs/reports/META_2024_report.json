@@ -1,0 +1,195 @@
+{
+  "doc_id": "META_2024",
+  "company": "META",
+  "year": "2024",
+  "generated_at": "2026-10-13T08:14:10.671397",
+  "generation_time_seconds": 0,
+  "executive_summary": {
+    "revenue": "164,501.00",
+    "net_income": "62,360.00",
+    "operating_income": "69,380.00",
+    "total_assets": "276,054.00",
+    "shareholders_equity": "182,637.00",
+    "overall_risk": "HIGH",
+    "total_flags": 8,
+    "risk_score": 100
+  },
+  "key_financials": {
+    "net_margin": "37.91%",
+    "op_margin": "N/A",
+    "gross_margin": "N/A",
+    "debt_to_equity": "0.51",
+    "roa": "22.59%",
+    "roe": "N/A",
+    "current_ratio": "N/A",
+    "eps": "N/A",
+    "ebitda": "N/A",
+    "fcf": "N/A"
+  },
+  "red_flags": {
+    "overall_risk_level": "HIGH",
+    "risk_score_out_of_100": 100,
+    "total_flags": 8,
+    "high": 1,
+    "medium": 7,
+    "low": 0,
+    "top_flags": [
+      {
+        "title": "Disclosure: Material Weakness Detected",
+        "severity": "HIGH",
+        "category": "Auditor & Internal Controls",
+        "description": "Disclosed mentions of material weakness found in annual filing.",
+        "citation": {
+          "document": "META_ANNUAL_2024.pdf",
+          "page": 86
+        }
+      },
+      {
+        "title": "Disclosure: Antitrust Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of antitrust, litigation found in annual filing.",
+        "citation": {
+          "document": "META_ANNUAL_2024.pdf",
+          "page": 113
+        }
+      },
+      {
+        "title": "Disclosure: Penalty Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of penalty found in annual filing.",
+        "citation": {
+          "document": "META_ANNUAL_2024.pdf",
+          "page": 112
+        }
+      },
+      {
+        "title": "Disclosure: Antitrust Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of antitrust, lawsuit, injunction found in annual filing.",
+        "citation": {
+          "document": "META_ANNUAL_2024.pdf",
+          "page": 42
+        }
+      },
+      {
+        "title": "Disclosure: Antitrust Detected",
+        "severity": "MEDIUM",
+        "category": "Legal & Regulatory Risks",
+        "description": "Disclosed mentions of antitrust found in annual filing.",
+        "citation": {
+          "document": "META_ANNUAL_2024.pdf",
+          "page": 54
+        }
+      },
+      {
+        "title": "Disclosure: Impairment Detected",
+        "severity": "MEDIUM",
+        "category": "Impairments & Solvency Risks",
+        "description": "Disclosed mentions of impairment found in annual filing.",
+        "citation": {
+          "document": "META_ANNUAL_2024.pdf",
+          "page": 37
+        }
+      },
+      {
+        "title": "Disclosure: Impairment Detected",
+        "severity": "MEDIUM",
+        "category": "Impairments & Solvency Risks",
+        "description": "Disclosed mentions of impairment found in annual filing.",
+        "citation": {
+          "document": "META_ANNUAL_2024.pdf",
+          "page": 99
+        }
+      },
+      {
+        "title": "Disclosure: Impairment Detected",
+        "severity": "MEDIUM",
+        "category": "Impairments & Solvency Risks",
+        "description": "Disclosed mentions of impairment found in annual filing.",
+        "citation": {
+          "document": "META_ANNUAL_2024.pdf",
+          "page": 107
+        }
+      }
+    ]
+  },
+  "comparison": {
+    "comparison_id": "META_2024_vs_APPLE_2024",
+    "compared_at": "2026-10-13T08:14:10.669147",
+    "entities": [
+      "META_2024",
+      "APPLE_2024"
+    ],
+    "markdown_table": "| Metric | META_2024 | APPLE_2024 |\n| --- | --- | --- |\n| Revenue / Net Sales | 164,501.0 | 167,045.0 |\n| Operating Income | 69,380.0 | 67,656.0 |\n| Net Income | 62,360.0 | 93,736.0 |\n| Operating Cash Flow | 91,328.0 | N/A |\n| Total Assets | 276,054.0 | 364,980.0 |\n| Shareholders' Equity | 182,637.0 | 56,950.0 |\n| Operating Margin (%) | N/A | N/A |\n| Net Profit Margin (%) | 37.91% | 56.11% |\n| Debt-to-Equity Ratio | 0.51 | 5.41 |\n| Return on Assets (%) | 22.59% | 25.68% |\n| Overall Risk Profile | HIGH (8 flags) | HIGH (12 flags) |",
+    "table_data": [
+      {
+        "metric": "Revenue / Net Sales",
+        "META_2024": "164,501.0",
+        "APPLE_2024": "167,045.0"
+      },
+      {
+        "metric": "Operating Income",
+        "META_2024": "69,380.0",
+        "APPLE_2024": "67,656.0"
+      },
+      {
+        "metric": "Net Income",
+        "META_2024": "62,360.0",
+        "APPLE_2024": "93,736.0"
+      },
+      {
+        "metric": "Operating Cash Flow",
+        "META_2024": "91,328.0",
+        "APPLE_2024": "N/A"
+      },
+      {
+        "metric": "Total Assets",
+        "META_2024": "276,054.0",
+        "APPLE_2024": "364,980.0"
+      },
+      {
+        "metric": "Shareholders' Equity",
+        "META_2024": "182,637.0",
+        "APPLE_2024": "56,950.0"
+      },
+      {
+        "metric": "Operating Margin (%)",
+        "META_2024": "N/A",
+        "APPLE_2024": "N/A"
+      },
+      {
+        "metric": "Net Profit Margin (%)",
+        "META_2024": "37.91%",
+        "APPLE_2024": "56.11%"
+      },
+      {
+        "metric": "Debt-to-Equity Ratio",
+        "META_2024": "0.51",
+        "APPLE_2024": "5.41"
+      },
+      {
+        "metric": "Return on Assets (%)",
+        "META_2024": "22.59%",
+        "APPLE_2024": "25.68%"
+      },
+      {
+        "metric": "Overall Risk Profile",
+        "META_2024": "HIGH (8 flags)",
+        "APPLE_2024": "HIGH (12 flags)"
+      }
+    ],
+    "insights": [
+      "**Scale Leadership**: APPLE_2024 leads in total revenue at 167,045.0, which is 1.5% higher than META_2024 (164,501.0).",
+      "**Risk Benchmarking**: META_2024 is rated HIGH risk (8 flags); APPLE_2024 is rated HIGH risk (12 flags)."
+    ]
+  },
+  "markdown_report": "# 📑 Financial Analysis Report: META (2024)\n**Generated:** 2026-10-13 08:14:10  |  **Overall Risk Level:** `HIGH` (100/100)\n\n---\n\n## 1. Executive Summary\nMETA reported total revenue/sales of **164,501.00** for fiscal year 2024.\nOperating income reached **69,380.00**, reflecting an operating margin of **N/A**.\nThe company closed the year with a net income of **62,360.00** (net profit margin: **37.91%**).\nTotal assets stood at **276,054.00** and shareholders' equity at **182,637.00**.\nThe automated risk scanner assigned an overall risk level of **HIGH** based on 8 detected flag(s).\n\n## 2. Key Financial Highlights & Ratios\n| Metric | Reported Value | Assessment |\n| --- | --- | --- |\n| Total Revenue | 164,501.00 | Core top-line performance |\n| Gross Profit | N/A | Revenue minus COGS |\n| Operating Income (EBIT) | 69,380.00 | Primary operating profitability |\n| Net Income | 62,360.00 | Bottom-line earnings |\n| EBITDA | N/A | Earnings before interest, taxes, depreciation |\n| Free Cash Flow | N/A | Operating cash flow minus CapEx |\n| Total Assets | 276,054.00 | Total balance sheet scale |\n| Shareholders' Equity | 182,637.00 | Net asset backing |\n| Total Debt | N/A | Outstanding debt obligations |\n| Cash & Equivalents | N/A | Liquid reserves |\n| Diluted EPS | N/A | Earnings per share |\n\n### Ratio Analysis\n| Ratio | Value | Benchmark |\n| --- | --- | --- |\n| Gross Margin | N/A | Pricing power & cost efficiency |\n| Operating Margin | N/A | Operational leverage |\n| Net Profit Margin | 37.91% | Profitability conversion |\n| Debt-to-Equity | 0.51 | Capital structure leverage |\n| Return on Assets (ROA) | 22.59% | Asset utilization efficiency |\n| Return on Equity (ROE) | N/A | Shareholder value creation |\n| Current Ratio | N/A | Short-term liquidity |\n\n## 3. Red Flag & Audit Risk Assessment\nThe automated audit scanner detected **8 flag(s)** — HIGH: 1, MEDIUM: 7, LOW: 0.\nOverall Risk Score: **100/100** (Level: **HIGH**).\n\n### Key Detected Disclosures & Anomalies:\n1. **[HIGH] Disclosure: Material Weakness Detected** (Auditor & Internal Controls)\n   - *Finding:* Disclosed mentions of material weakness found in annual filing.\n   - *Evidence:* \"standards require that we plan and perform the audit to obtain reasonable\nassurance about whether effective internal control over financial reporting was maintained in all material respects.\nOur audit\"\n   - *Citation:* `META_ANNUAL_2024.pdf`, Page 86\n\n2. **[MEDIUM] Disclosure: Antitrust Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of antitrust, litigation found in annual filing.\n   - *Evidence:* \"ounty Superior Court). These cases are in different stages, but several of our motions to dismiss have been denied in whole or in part, while certain others\nhave been granted in whole or in part. We a\"\n   - *Citation:* `META_ANNUAL_2024.pdf`, Page 113\n\n3. **[MEDIUM] Disclosure: Penalty Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of penalty found in annual filing.\n   - *Evidence:* \"s\nappealed final approval (one of which was voluntarily dismissed as of June 24, 2024). The objection is fully briefed and will be heard on February 7, 2025. In\naddition, our platform and user data pr\"\n   - *Citation:* `META_ANNUAL_2024.pdf`, Page 112\n\n4. **[MEDIUM] Disclosure: Antitrust Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of antitrust, lawsuit, injunction found in annual filing.\n   - *Evidence:* \"s in the United States, Europe, and\nother jurisdictions, which relate to many aspects of our business, including with respect to users and advertisers. Such inquiries, investigations, and lawsuits\ncon\"\n   - *Citation:* `META_ANNUAL_2024.pdf`, Page 42\n\n5. **[MEDIUM] Disclosure: Antitrust Detected** (Legal & Regulatory Risks)\n   - *Finding:* Disclosed mentions of antitrust found in annual filing.\n   - *Evidence:* \"gations, inquiries, and lawsuits concern, among other things, our business practices in the areas of social\nnetworking or social media services, digital advertising, and/or mobile or online applicatio\"\n   - *Citation:* `META_ANNUAL_2024.pdf`, Page 54\n\n6. **[MEDIUM] Disclosure: Impairment Detected** (Impairments & Solvency Risks)\n   - *Finding:* Disclosed mentions of impairment found in annual filing.\n   - *Evidence:* \"Table of Contents\nIf our goodwill or intangible assets become impaired, we may be required to record a significant charge to earnings.\nWe review our intangible assets for impairment when events or cha\"\n   - *Citation:* `META_ANNUAL_2024.pdf`, Page 37\n\n7. **[MEDIUM] Disclosure: Impairment Detected** (Impairments & Solvency Risks)\n   - *Finding:* Disclosed mentions of impairment found in annual filing.\n   - *Evidence:* \"benefit from business combinations. We evaluate our reporting units annually, as well as\nwhen changes in our operating segments occur. For changes in reporting units, we reassign goodwill using a rela\"\n   - *Citation:* `META_ANNUAL_2024.pdf`, Page 99\n\n8. **[MEDIUM] Disclosure: Impairment Detected** (Impairments & Solvency Risks)\n   - *Finding:* Disclosed mentions of impairment found in annual filing.\n   - *Evidence:* \"31,\n2024\n2023\n2022\nFinance lease cost:\nAmortization of right-of-use assets\n$\n387 \n$\n349  $\n380 \nInterest\n23 \n20 \n16 \nOperating lease cost\n2,359 \n2,091 \n1,857 \nVariable lease cost and other\n844 \n580 \n3\"\n   - *Citation:* `META_ANNUAL_2024.pdf`, Page 107\n\n## 4. Company Comparison & Benchmarking\n| Metric | META_2024 | APPLE_2024 |\n| --- | --- | --- |\n| Revenue / Net Sales | 164,501.0 | 167,045.0 |\n| Operating Income | 69,380.0 | 67,656.0 |\n| Net Income | 62,360.0 | 93,736.0 |\n| Operating Cash Flow | 91,328.0 | N/A |\n| Total Assets | 276,054.0 | 364,980.0 |\n| Shareholders' Equity | 182,637.0 | 56,950.0 |\n| Operating Margin (%) | N/A | N/A |\n| Net Profit Margin (%) | 37.91% | 56.11% |\n| Debt-to-Equity Ratio | 0.51 | 5.41 |\n| Return on Assets (%) | 22.59% | 25.68% |\n| Overall Risk Profile | HIGH (8 flags) | HIGH (12 flags) |\n\n### Benchmarking Insights:\n- **Scale Leadership**: APPLE_2024 leads in total revenue at 167,045.0, which is 1.5% higher than META_2024 (164,501.0).\n- **Risk Benchmarking**: META_2024 is rated HIGH risk (8 flags); APPLE_2024 is rated HIGH risk (12 flags).\n\n## 5. Strategic Outlook & Recommendation\n⚠️ **Caution Advised:** META displays multiple high-severity risk signals or regulatory disclosures requiring thorough review before credit or capital allocation.\nElevated risk factors suggest a defensive positioning strategy with active monitoring of material developments.\n\n---\n*Report compiled by FinResearch AI Multi-Agent System — October 13, 2026*",
+  "recommendation": "CAUTION / MONITOR",
+  "overall_risk_level": "HIGH",
+  "json_path": "C:\\Users\\Udhaya kiran\\OneDrive\\Desktop\\INFOSYS_INTERN\\outputs\\reports\\META_2024_report.json",
+  "markdown_path": "C:\\Users\\Udhaya kiran\\OneDrive\\Desktop\\INFOSYS_INTERN\\outputs\\reports\\META_2024_report.md",
+  "pdf_path": "C:\\Users\\Udhaya kiran\\OneDrive\\Desktop\\INFOSYS_INTERN\\outputs\\reports\\META_2024_report.pdf"
+}

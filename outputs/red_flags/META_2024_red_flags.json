@@ -1,0 +1,139 @@
+{
+  "doc_id": "META_2024",
+  "company": "META",
+  "year": "2024",
+  "scanned_at": "2026-10-12T17:58:01.058275",
+  "summary": {
+    "overall_risk_level": "HIGH",
+    "risk_score_out_of_100": 100,
+    "total_flags": 8,
+    "high_severity_count": 1,
+    "medium_severity_count": 7,
+    "low_severity_count": 0
+  },
+  "red_flags": [
+    {
+      "id": "FLAG_MATERIAL_WEAKNESS",
+      "category": "Auditor & Internal Controls",
+      "severity": "HIGH",
+      "title": "Disclosure: Material Weakness Detected",
+      "description": "Disclosed mentions of material weakness found in annual filing.",
+      "evidence": "standards require that we plan and perform the audit to obtain reasonable\nassurance about whether effective internal control over financial reporting was maintained in all material respects.\nOur audit included obtaining an understanding of internal control over financial reporting, assessing the ris",
+      "provenance": {
+        "document": "META_ANNUAL_2024.pdf",
+        "page_number": 86,
+        "matched_keywords": [
+          "material weakness"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_ANTITRUST",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Antitrust Detected",
+      "description": "Disclosed mentions of antitrust, litigation found in annual filing.",
+      "evidence": "ounty Superior Court). These cases are in different stages, but several of our motions to dismiss have been denied in whole or in part, while certain others\nhave been granted in whole or in part. We are currently in discovery and litigating class certification in the cases that are most advanced.\nCo",
+      "provenance": {
+        "document": "META_ANNUAL_2024.pdf",
+        "page_number": 113,
+        "matched_keywords": [
+          "antitrust",
+          "litigation"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_PENALTY",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Penalty Detected",
+      "description": "Disclosed mentions of penalty found in annual filing.",
+      "evidence": "s\nappealed final approval (one of which was voluntarily dismissed as of June 24, 2024). The objection is fully briefed and will be heard on February 7, 2025. In\naddition, our platform and user data practices, as well as the events surrounding the misuse of certain data by a developer, became the sub",
+      "provenance": {
+        "document": "META_ANNUAL_2024.pdf",
+        "page_number": 112,
+        "matched_keywords": [
+          "penalty"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_ANTITRUST",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Antitrust Detected",
+      "description": "Disclosed mentions of antitrust, lawsuit, injunction found in annual filing.",
+      "evidence": "s in the United States, Europe, and\nother jurisdictions, which relate to many aspects of our business, including with respect to users and advertisers. Such inquiries, investigations, and lawsuits\nconcern, among other things, our business practices in the areas of social networking or social media s",
+      "provenance": {
+        "document": "META_ANNUAL_2024.pdf",
+        "page_number": 42,
+        "matched_keywords": [
+          "antitrust",
+          "lawsuit",
+          "injunction"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_ANTITRUST",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Antitrust Detected",
+      "description": "Disclosed mentions of antitrust found in annual filing.",
+      "evidence": "gations, inquiries, and lawsuits concern, among other things, our business practices in the areas of social\nnetworking or social media services, digital advertising, and/or mobile or online applications, as well as our acquisitions. For example, in 2019 we became the\nsubject of antitrust investigati",
+      "provenance": {
+        "document": "META_ANNUAL_2024.pdf",
+        "page_number": 54,
+        "matched_keywords": [
+          "antitrust"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_IMPAIRMENT",
+      "category": "Impairments & Solvency Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Impairment Detected",
+      "description": "Disclosed mentions of impairment found in annual filing.",
+      "evidence": "Table of Contents\nIf our goodwill or intangible assets become impaired, we may be required to record a significant charge to earnings.\nWe review our intangible assets for impairment when events or changes in circumstances indicate the carrying value may not be recoverable, such as a\ndecline in stock",
+      "provenance": {
+        "document": "META_ANNUAL_2024.pdf",
+        "page_number": 37,
+        "matched_keywords": [
+          "impairment"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_IMPAIRMENT",
+      "category": "Impairments & Solvency Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Impairment Detected",
+      "description": "Disclosed mentions of impairment found in annual filing.",
+      "evidence": "benefit from business combinations. We evaluate our reporting units annually, as well as\nwhen changes in our operating segments occur. For changes in reporting units, we reassign goodwill using a relative fair value allocation approach. Goodwill is\ntested for impairment at the reporting unit level a",
+      "provenance": {
+        "document": "META_ANNUAL_2024.pdf",
+        "page_number": 99,
+        "matched_keywords": [
+          "impairment"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_IMPAIRMENT",
+      "category": "Impairments & Solvency Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Impairment Detected",
+      "description": "Disclosed mentions of impairment found in annual filing.",
+      "evidence": "31,\n2024\n2023\n2022\nFinance lease cost:\nAmortization of right-of-use assets\n$\n387 \n$\n349  $\n380 \nInterest\n23 \n20 \n16 \nOperating lease cost\n2,359 \n2,091 \n1,857 \nVariable lease cost and other\n844 \n580 \n363 \nTotal\n$\n3,613 \n$\n3,040  $\n2,616 \nWe also recorded $385 million, $1.76 billion, and $1.71 billion",
+      "provenance": {
+        "document": "META_ANNUAL_2024.pdf",
+        "page_number": 107,
+        "matched_keywords": [
+          "impairment"
+        ]
+      }
+    }
+  ]
+}

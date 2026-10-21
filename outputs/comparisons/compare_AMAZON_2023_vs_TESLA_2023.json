@@ -1,0 +1,65 @@
+{
+  "comparison_id": "AMAZON_2023_vs_TESLA_2023",
+  "compared_at": "2026-10-12T15:14:58.921693",
+  "entities": [
+    "AMAZON_2023",
+    "TESLA_2023"
+  ],
+  "markdown_table": "| Metric | AMAZON_2023 | TESLA_2023 |\n| --- | --- | --- |\n| Revenue / Net Sales | 469,822.0 | 90,738.0 |\n| Operating Income | 24,879.0 | 8,891.0 |\n| Net Income | , | 14,997.0 |\n| Operating Cash Flow | N/A | 13,256.0 |\n| Total Assets | 462,675.0 | 4,087.0 |\n| Shareholders' Equity | 146,043.0 | 62,634.0 |\n| Operating Margin (%) | N/A | N/A |\n| Net Profit Margin (%) | N/A | N/A |\n| Debt-to-Equity Ratio | N/A | N/A |\n| Overall Risk Profile | HIGH (6 flags) | HIGH (10 flags) |",
+  "table_data": [
+    {
+      "metric": "Revenue / Net Sales",
+      "AMAZON_2023": "469,822.0",
+      "TESLA_2023": "90,738.0"
+    },
+    {
+      "metric": "Operating Income",
+      "AMAZON_2023": "24,879.0",
+      "TESLA_2023": "8,891.0"
+    },
+    {
+      "metric": "Net Income",
+      "AMAZON_2023": ",",
+      "TESLA_2023": "14,997.0"
+    },
+    {
+      "metric": "Operating Cash Flow",
+      "AMAZON_2023": "N/A",
+      "TESLA_2023": "13,256.0"
+    },
+    {
+      "metric": "Total Assets",
+      "AMAZON_2023": "462,675.0",
+      "TESLA_2023": "4,087.0"
+    },
+    {
+      "metric": "Shareholders' Equity",
+      "AMAZON_2023": "146,043.0",
+      "TESLA_2023": "62,634.0"
+    },
+    {
+      "metric": "Operating Margin (%)",
+      "AMAZON_2023": "N/A",
+      "TESLA_2023": "N/A"
+    },
+    {
+      "metric": "Net Profit Margin (%)",
+      "AMAZON_2023": "N/A",
+      "TESLA_2023": "N/A"
+    },
+    {
+      "metric": "Debt-to-Equity Ratio",
+      "AMAZON_2023": "N/A",
+      "TESLA_2023": "N/A"
+    },
+    {
+      "metric": "Overall Risk Profile",
+      "AMAZON_2023": "HIGH (6 flags)",
+      "TESLA_2023": "HIGH (10 flags)"
+    }
+  ],
+  "insights": [
+    "**Scale Leadership**: AMAZON_2023 leads in total revenue at 469,822.0, which is 417.8% higher than TESLA_2023 (90,738.0).",
+    "**Risk Benchmarking**: AMAZON_2023 is rated HIGH risk (6 flags); TESLA_2023 is rated HIGH risk (10 flags)."
+  ]
+}

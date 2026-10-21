@@ -1,0 +1,106 @@
+{
+  "doc_id": "AMAZON_2023",
+  "company": "AMAZON",
+  "year": "2023",
+  "scanned_at": "2026-10-13T08:15:07.919239",
+  "summary": {
+    "overall_risk_level": "HIGH",
+    "risk_score_out_of_100": 100,
+    "total_flags": 6,
+    "high_severity_count": 1,
+    "medium_severity_count": 5,
+    "low_severity_count": 0
+  },
+  "red_flags": [
+    {
+      "id": "FLAG_MATERIAL_WEAKNESS",
+      "category": "Auditor & Internal Controls",
+      "severity": "HIGH",
+      "title": "Disclosure: Material Weakness Detected",
+      "description": "Disclosed mentions of material weakness found in annual filing.",
+      "evidence": "equire that we plan and \nperform the audit to obtain reasonable assurance about whether effective internal control over financial reporting was \nmaintained in all material respects. \nOur audit included obtaining an understanding of internal control over financial reporting, assessing the risk that a",
+      "provenance": {
+        "document": "AMAZON_ANNUAL_2023.pdf",
+        "page_number": 84,
+        "matched_keywords": [
+          "material weakness"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_ANTITRUST",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Antitrust Detected",
+      "description": "Disclosed mentions of antitrust found in annual filing.",
+      "evidence": ", competition and antitrust, \nprivacy, data use, data protection, data security, data localization, network security, consumer protection, commercial disputes, \ngoods and services offered by us and by third parties (including artificial intelligence technologies and services), and other \nmatters. Th",
+      "provenance": {
+        "document": "AMAZON_ANNUAL_2023.pdf",
+        "page_number": 27,
+        "matched_keywords": [
+          "antitrust"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_LITIGATION",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Litigation Detected",
+      "description": "Disclosed mentions of litigation found in annual filing.",
+      "evidence": "l \nTrade Commission. The complaints allege, among other things, that certain Amazon Prime Video services and features of \nAmazon devices carrying the Prime Video app infringe Nokia’s patents; some of the complaints additionally allege \ninfringement by Freevee, Twitch, and Amazon voice assistants. Th",
+      "provenance": {
+        "document": "AMAZON_ANNUAL_2023.pdf",
+        "page_number": 74,
+        "matched_keywords": [
+          "litigation"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_INVESTIGATION",
+      "category": "Legal & Regulatory Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Investigation Detected",
+      "description": "Disclosed mentions of investigation found in annual filing.",
+      "evidence": "tions that can result in tax assessments against us. \nDevelopments in an audit, investigation, or other tax controversy can have a material effect on our operating results or cash \nflows in the period or periods for which that development occurs, as well as for prior and subsequent periods. Due to t",
+      "provenance": {
+        "document": "AMAZON_ANNUAL_2023.pdf",
+        "page_number": 28,
+        "matched_keywords": [
+          "investigation"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_IMPAIRMENT",
+      "category": "Impairments & Solvency Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Impairment Detected",
+      "description": "Disclosed mentions of impairment found in annual filing.",
+      "evidence": "etermined to be less than the carrying value, \nwe recognize an impairment loss for the difference. We estimate the fair value of the reporting units using discounted cash \nflows. Forecasts of future cash flows are based on our best estimate of future net sales and operating expenses, based primarily",
+      "provenance": {
+        "document": "AMAZON_ANNUAL_2023.pdf",
+        "page_number": 61,
+        "matched_keywords": [
+          "impairment"
+        ]
+      }
+    },
+    {
+      "id": "FLAG_IMPAIRMENT",
+      "category": "Impairments & Solvency Risks",
+      "severity": "MEDIUM",
+      "title": "Disclosure: Impairment Detected",
+      "description": "Disclosed mentions of impairment found in annual filing.",
+      "evidence": "rary \nand if so, we write down the investment to its estimated fair value. \nEquity investments that have readily determinable fair values, including investments for which we have elected the fair \nvalue option, are included in “Marketable securities” on our consolidated balance sheets and measured a",
+      "provenance": {
+        "document": "AMAZON_ANNUAL_2023.pdf",
+        "page_number": 62,
+        "matched_keywords": [
+          "impairment"
+        ]
+      }
+    }
+  ]
+}
