@@ -81,15 +81,27 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Storage config for document uploads
-const uploadDir = path.join(__dirname, '..', 'DATA');
-const reportsDir = path.join(__dirname, '..', 'outputs', 'reports');
-if (!fs.existsSync(uploadDir)) {
-  fs.mkdirSync(uploadDir, { recursive: true });
+// Storage config for document uploads (Vercel-safe using /tmp)
+const isVercel = !!process.env.VERCEL;
+const uploadDir = isVercel ? '/tmp/DATA' : path.join(__dirname, '..', 'DATA');
+const reportsDir = isVercel ? '/tmp/reports' : path.join(__dirname, '..', 'outputs', 'reports');
+
+try {
+  if (!fs.existsSync(uploadDir)) {
+    fs.mkdirSync(uploadDir, { recursive: true });
+  }
+} catch (err) {
+  // Gracefully handle read-only filesystem
 }
-if (!fs.existsSync(reportsDir)) {
-  fs.mkdirSync(reportsDir, { recursive: true });
+
+try {
+  if (!fs.existsSync(reportsDir)) {
+    fs.mkdirSync(reportsDir, { recursive: true });
+  }
+} catch (err) {
+  // Gracefully handle read-only filesystem
 }
+
 
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
