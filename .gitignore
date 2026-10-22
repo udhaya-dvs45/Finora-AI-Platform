@@ -47,8 +47,13 @@ test_langgraph_output.txt
 
 # Environment & Secrets
 .env
+.env*
+*.env
 .env.local
 .env.*.local
+!.env.example
+*.pem
+*.key
 
 # Operating System Files
 .DS_Store

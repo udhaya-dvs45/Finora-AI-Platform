@@ -132,6 +132,8 @@ INFOSYS_INTERN/
 ├── vercel.json                  # Vercel Serverless Deployment Config
 ├── package.json                 # Project Root Configuration
 ├── requirements.txt             # Python Dependencies
+├── .env.example                 # Environment Variables Template
+├── LICENSE                      # MIT License
 └── README.md                    # Project Documentation
 ```
 
@@ -143,6 +145,23 @@ INFOSYS_INTERN/
 - **Node.js**: v18.x or higher
 - **Python**: v3.10 or higher
 - **Git**
+- **Google Gemini API Key** (Free tier available at [Google AI Studio](https://aistudio.google.com/))
+
+---
+
+### 🔑 Environment & API Configuration
+
+To enable live Google Gemini AI synthesis in the Financial Intelligence Terminal:
+
+1. Copy `.env.example` to create your local `.env`:
+   ```bash
+   cp .env.example .env
+   ```
+2. Open `.env` and paste your Gemini API key:
+   ```env
+   GEMINI_API_KEY=your_google_gemini_api_key_here
+   ```
+> **Note:** `.env` is automatically ignored by Git via `.gitignore`, keeping your API keys safe from accidental commits. If no API key is provided, the terminal gracefully falls back to deterministic local heuristic synthesis.
 
 ---
 
@@ -193,6 +212,13 @@ The application is deployed and hosted live on Vercel:
 🔗 **Production URL**: **[https://flying-sirocco-qc3yg44.vercel.app](https://flying-sirocco-qc3yg44.vercel.app)**
 
 This repository is pre-configured with [`frontend/vercel.json`](frontend/vercel.json) for zero-config serverless hosting of the Finora AI Express server and financial intelligence terminal interface.
+
+#### Setting Environment Variables on Vercel
+When deploying your own instance to Vercel:
+1. Navigate to your project on [Vercel Dashboard](https://vercel.com).
+2. Go to **Settings** → **Environment Variables**.
+3. Add `GEMINI_API_KEY` with your Google Gemini API key as value.
+4. Redeploy to activate live AI generation.
 
 
 ---

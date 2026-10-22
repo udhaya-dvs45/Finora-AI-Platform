@@ -5,6 +5,25 @@ const https = require('https');
 const cors = require('cors');
 const multer = require('multer');
 const { spawn, execSync } = require('child_process');
+// Load environment variables from .env if present in local development
+try {
+  const rootEnv = path.resolve(__dirname, '../.env');
+  const localEnv = path.resolve(__dirname, '.env');
+  const targetEnv = fs.existsSync(rootEnv) ? rootEnv : (fs.existsSync(localEnv) ? localEnv : null);
+  if (targetEnv) {
+    fs.readFileSync(targetEnv, 'utf-8').split(/\r?\n/).forEach(line => {
+      const trimmed = line.trim();
+      if (trimmed && !trimmed.startsWith('#')) {
+        const idx = trimmed.indexOf('=');
+        if (idx > -1) {
+          const key = trimmed.slice(0, idx).trim();
+          const val = trimmed.slice(idx + 1).trim().replace(/^['"]|['"]$/g, '');
+          if (!process.env[key]) process.env[key] = val;
+        }
+      }
+    });
+  }
+} catch (e) {}
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY || '';
 
